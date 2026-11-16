@@ -79,6 +79,7 @@ watchEffect(async () => {
 .card {
   min-height: 100dvh;
   scroll-snap-align: start;
+  scroll-snap-stop: always;
   position: relative;
   padding-top: 112px; /* Platz für die feste Kopfzeile */
   display: flex;

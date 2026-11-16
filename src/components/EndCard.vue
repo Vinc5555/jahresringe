@@ -20,6 +20,7 @@ defineEmits(['restart'])
 .end {
   min-height: 100dvh;
   scroll-snap-align: start;
+  scroll-snap-stop: always;
   display: flex;
   flex-direction: column;
   align-items: center;
