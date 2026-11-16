@@ -1,0 +1,59 @@
+/* ─────────────────────────────────────────────────────────────
+   theme.css – FARBEN, SCHRIFT, GRUNDLAYOUT
+   Hier drehst du für den Feinschliff: alle Farben für Hell und Dunkel.
+   Die Werte werden als CSS-Variablen (--name) überall verwendet.
+   ───────────────────────────────────────────────────────────── */
+
+/* Hellmodus (Standard) */
+:root {
+  --bg: #fafaf7;          /* Hintergrund */
+  --text: #16181d;        /* Haupttext */
+  --muted: #6b7280;       /* Nebentext (Quellen, Labels) */
+  --accent: #e4572e;      /* Akzentfarbe (Fortschritt, Buttons) */
+  --surface: #ffffff;     /* Flächen wie Jahresliste */
+  --line: rgba(0, 0, 0, 0.08);
+
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: light;
+}
+
+/* Dunkelmodus – wird per data-theme="dark" am <html> aktiviert */
+:root[data-theme='dark'] {
+  --bg: #0f1115;
+  --text: #f2f3f5;
+  --muted: #9ca3af;
+  --accent: #ff7a59;
+  --surface: #1a1d23;
+  --line: rgba(255, 255, 255, 0.1);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #app { height: 100%; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s, color 0.3s;
+}
+
+a { color: inherit; }
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Auf dem Desktop: App mittig in Handybreite */
+#app {
+  max-width: 480px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}

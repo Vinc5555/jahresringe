@@ -1,0 +1,1767 @@
+{
+  "_info": "Inhalte der App. Pro Jahr ein Eintrag. type: day = genau an diesem Tag (1 Eintrag), year = Meilensteine des Jahres. Item-Felder: title, text, source (Link, deutsch), optional image (Dateiname Wikimedia Commons), credit, birthday (true = Geburtstag am 17.11.), noImage (true = kein Bild aus dem Artikel holen).",
+  "years": [
+    {
+      "year": 1936,
+      "type": "year",
+      "items": [
+        {
+          "title": "Olympische Spiele in Berlin",
+          "text": "Jesse Owens gewinnt vier Goldmedaillen und wird zum Star der Spiele.",
+          "source": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1936",
+          "noImage": true
+        },
+        {
+          "title": "Das Fernsehen geht auf Sendung",
+          "text": "In London startet die BBC das erste regelmäßige Fernsehprogramm der Welt.",
+          "source": "https://de.wikipedia.org/wiki/BBC_One"
+        },
+        {
+          "title": "Geburtsstunde der Informatik",
+          "text": "Alan Turing beschreibt die „Turingmaschine“ – das Gedankenmodell jedes Computers.",
+          "source": "https://de.wikipedia.org/wiki/Turingmaschine"
+        },
+        {
+          "title": "Frédy Girardet",
+          "text": "Der Schweizer Spitzenkoch – später „Koch des Jahrhunderts“ – wird am selben Tag geboren.",
+          "source": "https://de.wikipedia.org/wiki/Frédy_Girardet",
+          "birthday": true,
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1937,
+      "type": "year",
+      "items": [
+        {
+          "title": "Golden Gate Bridge eröffnet",
+          "text": "San Franciscos rote Brücke wird zum Wahrzeichen.",
+          "source": "https://de.wikipedia.org/wiki/Golden_Gate_Bridge"
+        },
+        {
+          "title": "„Schneewittchen“ im Kino",
+          "text": "Disneys erster abendfüllender Zeichentrickfilm feiert Premiere.",
+          "source": "https://de.wikipedia.org/wiki/Schneewittchen_und_die_sieben_Zwerge_(1937)"
+        },
+        {
+          "title": "Nylon wird patentiert",
+          "text": "Die Kunstfaser verändert bald Strümpfe, Kleidung und Zahnbürsten.",
+          "source": "https://de.wikipedia.org/wiki/Nylon"
+        }
+      ]
+    },
+    {
+      "year": 1938,
+      "type": "year",
+      "items": [
+        {
+          "title": "Kernspaltung entdeckt",
+          "text": "Otto Hahn und Fritz Straßmann gelingt in Berlin eine Jahrhundertentdeckung.",
+          "source": "https://de.wikipedia.org/wiki/Kernspaltung"
+        },
+        {
+          "title": "Der Kugelschreiber",
+          "text": "László Bíró meldet seinen Kugelschreiber zum Patent an.",
+          "source": "https://de.wikipedia.org/wiki/Kugelschreiber"
+        },
+        {
+          "title": "Superman hebt ab",
+          "text": "Der erste Superheld erscheint in einem Comicheft.",
+          "source": "https://de.wikipedia.org/wiki/Superman",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1939,
+      "type": "year",
+      "items": [
+        {
+          "title": "„Der Zauberer von Oz“",
+          "text": "Dorothy und ihre Freunde begeistern das Kinopublikum.",
+          "source": "https://de.wikipedia.org/wiki/Der_Zauberer_von_Oz_(1939)",
+          "noImage": true
+        },
+        {
+          "title": "„Vom Winde verweht“",
+          "text": "Einer der erfolgreichsten Filme aller Zeiten kommt ins Kino.",
+          "source": "https://de.wikipedia.org/wiki/Vom_Winde_verweht_(Film)",
+          "noImage": true
+        },
+        {
+          "title": "Der Hubschrauber fliegt",
+          "text": "Igor Sikorskys VS-300 hebt ab – Vorbild aller heutigen Helikopter.",
+          "source": "https://de.wikipedia.org/wiki/Vought-Sikorsky_VS-300"
+        }
+      ]
+    },
+    {
+      "year": 1940,
+      "type": "year",
+      "items": [
+        {
+          "title": "Höhlen von Lascaux entdeckt",
+          "text": "Jugendliche finden in Frankreich 17.000 Jahre alte Höhlenmalereien.",
+          "source": "https://de.wikipedia.org/wiki/Höhle_von_Lascaux"
+        },
+        {
+          "title": "Disneys „Fantasia“",
+          "text": "Klassische Musik trifft auf Zeichentrick.",
+          "source": "https://de.wikipedia.org/wiki/Fantasia_(1940)"
+        },
+        {
+          "title": "Bugs Bunny hat Premiere",
+          "text": "„Was gibt's Neues, Doc?“ – der Hase hat seinen ersten Auftritt.",
+          "source": "https://de.wikipedia.org/wiki/Bugs_Bunny"
+        }
+      ]
+    },
+    {
+      "year": 1941,
+      "type": "year",
+      "items": [
+        {
+          "title": "Konrad Zuses Z3",
+          "text": "In Berlin läuft der erste funktionsfähige, programmierbare Computer der Welt.",
+          "source": "https://de.wikipedia.org/wiki/Zuse_Z3"
+        },
+        {
+          "title": "Mount Rushmore fertig",
+          "text": "Die vier Präsidentenköpfe im Fels sind vollendet.",
+          "source": "https://de.wikipedia.org/wiki/Mount_Rushmore_National_Memorial"
+        },
+        {
+          "title": "„Citizen Kane“",
+          "text": "Orson Welles' Film gilt bis heute als einer der besten aller Zeiten.",
+          "source": "https://de.wikipedia.org/wiki/Citizen_Kane",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1942,
+      "type": "year",
+      "items": [
+        {
+          "title": "„Casablanca“",
+          "text": "„Ich seh dir in die Augen, Kleines“ – der Filmklassiker feiert Premiere.",
+          "source": "https://de.wikipedia.org/wiki/Casablanca_(Film)",
+          "noImage": true
+        },
+        {
+          "title": "„Bambi“",
+          "text": "Disneys Rehkitz rührt Kinder auf der ganzen Welt.",
+          "source": "https://de.wikipedia.org/wiki/Bambi_(1942)"
+        },
+        {
+          "title": "Martin Scorsese",
+          "text": "Der spätere Oscar-Regisseur wird am selben Tag geboren.",
+          "source": "https://de.wikipedia.org/wiki/Martin_Scorsese",
+          "birthday": true,
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1943,
+      "type": "year",
+      "items": [
+        {
+          "title": "„Der kleine Prinz“ erscheint",
+          "text": "Antoine de Saint-Exupérys Märchen wird zu einem der meistgelesenen Bücher der Welt.",
+          "source": "https://de.wikipedia.org/wiki/Der_kleine_Prinz"
+        },
+        {
+          "title": "Streptomycin entdeckt",
+          "text": "Das erste wirksame Mittel gegen Tuberkulose wird gefunden.",
+          "source": "https://de.wikipedia.org/wiki/Streptomycin"
+        },
+        {
+          "title": "Musical „Oklahoma!“",
+          "text": "Das Broadway-Musical begründet eine neue Ära des Musiktheaters.",
+          "source": "https://de.wikipedia.org/wiki/Oklahoma!"
+        }
+      ]
+    },
+    {
+      "year": 1944,
+      "type": "year",
+      "items": [
+        {
+          "title": "Großrechner Harvard Mark I",
+          "text": "Einer der ersten Computer der USA geht in Betrieb.",
+          "source": "https://de.wikipedia.org/wiki/Harvard_Mark_I"
+        },
+        {
+          "title": "Penicillin für alle",
+          "text": "Das Antibiotikum wird erstmals in großen Mengen hergestellt.",
+          "source": "https://de.wikipedia.org/wiki/Penicillin"
+        },
+        {
+          "title": "Danny DeVito",
+          "text": "Der Schauspieler („Twins“) wird am selben Tag geboren.",
+          "source": "https://de.wikipedia.org/wiki/Danny_DeVito",
+          "birthday": true,
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1945,
+      "type": "year",
+      "items": [
+        {
+          "title": "Kriegsende in Europa",
+          "text": "Am 8. Mai schweigen in Europa endlich die Waffen.",
+          "source": "https://de.wikipedia.org/wiki/Ende_des_Zweiten_Weltkrieges_in_Europa",
+          "noImage": true
+        },
+        {
+          "title": "Die Vereinten Nationen",
+          "text": "Die UNO wird gegründet, um den Frieden zu sichern.",
+          "source": "https://de.wikipedia.org/wiki/Vereinte_Nationen"
+        },
+        {
+          "title": "„Pippi Langstrumpf“",
+          "text": "Astrid Lindgrens starkes Mädchen erscheint als Buch.",
+          "source": "https://de.wikipedia.org/wiki/Pippi_Langstrumpf"
+        }
+      ]
+    },
+    {
+      "year": 1946,
+      "type": "year",
+      "items": [
+        {
+          "title": "ENIAC vorgestellt",
+          "text": "Der Rechenriese füllt einen ganzen Saal.",
+          "source": "https://de.wikipedia.org/wiki/ENIAC"
+        },
+        {
+          "title": "UNICEF gegründet",
+          "text": "Das Kinderhilfswerk der UNO hilft Kindern weltweit.",
+          "source": "https://de.wikipedia.org/wiki/UNICEF"
+        },
+        {
+          "title": "„Ist das Leben nicht schön?“",
+          "text": "Der Weihnachtsfilm-Klassiker feiert Premiere.",
+          "source": "https://de.wikipedia.org/wiki/Ist_das_Leben_nicht_schön?",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1947,
+      "type": "day",
+      "items": [
+        {
+          "title": "Der Startschuss für den Transistor",
+          "text": "Walter Brattain taucht sein Experiment in Wasser – und hat plötzlich den Durchbruch. Damit beginnt der „Wundermonat“, an dessen Ende der erste Transistor steht: der Baustein in jedem Handy und Computer.",
+          "source": "https://computerhistory.org/blog/the-surface-state-job/",
+          "image": "Replica-of-first-transistor.jpg",
+          "credit": "Wikimedia Commons, gemeinfrei"
+        }
+      ]
+    },
+    {
+      "year": 1948,
+      "type": "year",
+      "items": [
+        {
+          "title": "Die D-Mark kommt",
+          "text": "Mit der Währungsreform füllen sich über Nacht die Schaufenster.",
+          "source": "https://de.wikipedia.org/wiki/Währungsreform_1948_(Westdeutschland)"
+        },
+        {
+          "title": "Rosinenbomber",
+          "text": "Die Luftbrücke versorgt West-Berlin – Piloten werfen Süßigkeiten für Kinder ab.",
+          "source": "https://de.wikipedia.org/wiki/Berliner_Luftbrücke"
+        },
+        {
+          "title": "Menschenrechte",
+          "text": "Die UNO verkündet die Allgemeine Erklärung der Menschenrechte.",
+          "source": "https://de.wikipedia.org/wiki/Allgemeine_Erklärung_der_Menschenrechte"
+        }
+      ]
+    },
+    {
+      "year": 1949,
+      "type": "year",
+      "items": [
+        {
+          "title": "Das Grundgesetz",
+          "text": "Am 23. Mai tritt die Verfassung der Bundesrepublik in Kraft.",
+          "source": "https://de.wikipedia.org/wiki/Grundgesetz_für_die_Bundesrepublik_Deutschland"
+        },
+        {
+          "title": "Ende der Berlin-Blockade",
+          "text": "Straßen und Schienen nach West-Berlin sind wieder offen.",
+          "source": "https://de.wikipedia.org/wiki/Berlin-Blockade"
+        },
+        {
+          "title": "Orwells „1984“",
+          "text": "Der berühmte Roman erscheint.",
+          "source": "https://de.wikipedia.org/wiki/1984_(Roman)"
+        }
+      ]
+    },
+    {
+      "year": 1950,
+      "type": "year",
+      "items": [
+        {
+          "title": "Die Peanuts",
+          "text": "Charlie Brown und Snoopy erscheinen erstmals in der Zeitung.",
+          "source": "https://de.wikipedia.org/wiki/Die_Peanuts"
+        },
+        {
+          "title": "Die erste Kreditkarte",
+          "text": "Der Diners Club erfindet das Bezahlen per Karte.",
+          "source": "https://de.wikipedia.org/wiki/Diners_Club"
+        },
+        {
+          "title": "Roland Matthes",
+          "text": "Der spätere viermalige Olympiasieger im Rückenschwimmen wird am selben Tag geboren.",
+          "source": "https://de.wikipedia.org/wiki/Roland_Matthes",
+          "birthday": true,
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1951,
+      "type": "year",
+      "items": [
+        {
+          "title": "Erste Berlinale",
+          "text": "Berlin feiert sein erstes Internationales Filmfestival.",
+          "source": "https://de.wikipedia.org/wiki/Internationale_Filmfestspiele_Berlin"
+        },
+        {
+          "title": "Die Montanunion",
+          "text": "Sechs Länder gründen den Vorläufer der Europäischen Union.",
+          "source": "https://de.wikipedia.org/wiki/Europäische_Gemeinschaft_für_Kohle_und_Stahl"
+        },
+        {
+          "title": "Erstes Farbfernsehen",
+          "text": "In den USA wird erstmals eine Sendung in Farbe ausgestrahlt.",
+          "source": "https://de.wikipedia.org/wiki/Farbfernsehen"
+        }
+      ]
+    },
+    {
+      "year": 1952,
+      "type": "year",
+      "items": [
+        {
+          "title": "Die erste Tagesschau",
+          "text": "Am 26. Dezember läuft die Tagesschau zum ersten Mal.",
+          "source": "https://de.wikipedia.org/wiki/Tagesschau_(ARD)"
+        },
+        {
+          "title": "Polio-Impfstoff",
+          "text": "Jonas Salk entwickelt den ersten Impfstoff gegen Kinderlähmung.",
+          "source": "https://de.wikipedia.org/wiki/Poliomyelitis"
+        },
+        {
+          "title": "Hubert von Goisern",
+          "text": "Der österreichische Musiker („Koa Hiatamadl“) wird am selben Tag geboren.",
+          "source": "https://de.wikipedia.org/wiki/Hubert_von_Goisern",
+          "birthday": true,
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1953,
+      "type": "year",
+      "items": [
+        {
+          "title": "Gipfel des Mount Everest",
+          "text": "Edmund Hillary und Tenzing Norgay stehen als Erste auf dem höchsten Berg der Welt.",
+          "source": "https://de.wikipedia.org/wiki/Mount_Everest"
+        },
+        {
+          "title": "Die DNA-Doppelhelix",
+          "text": "Forscher entschlüsseln den Bauplan des Lebens.",
+          "source": "https://de.wikipedia.org/wiki/Desoxyribonukleinsäure"
+        },
+        {
+          "title": "Krönung im Fernsehen",
+          "text": "Millionen sehen die Krönung von Elisabeth II. live.",
+          "source": "https://de.wikipedia.org/wiki/Krönung_von_Elisabeth_II.",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1954,
+      "type": "year",
+      "items": [
+        {
+          "title": "Das Wunder von Bern",
+          "text": "Deutschland wird Fußball-Weltmeister: „Aus, aus, das Spiel ist aus!“",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_1954/Finale",
+          "noImage": true
+        },
+        {
+          "title": "Erstbesteigung des K2",
+          "text": "Der zweithöchste Berg der Welt wird bezwungen.",
+          "source": "https://de.wikipedia.org/wiki/K2"
+        },
+        {
+          "title": "Großer Polio-Impftest",
+          "text": "Über eine Million Kinder werden in den USA geimpft.",
+          "source": "https://de.wikipedia.org/wiki/Poliomyelitis"
+        }
+      ]
+    },
+    {
+      "year": 1955,
+      "type": "year",
+      "items": [
+        {
+          "title": "Heimkehr der Zehntausend",
+          "text": "Die letzten deutschen Kriegsgefangenen dürfen aus der Sowjetunion heimkehren.",
+          "source": "https://de.wikipedia.org/wiki/Heimkehr_der_Zehntausend",
+          "noImage": true
+        },
+        {
+          "title": "Disneyland eröffnet",
+          "text": "Der erste Disney-Freizeitpark öffnet in Kalifornien.",
+          "source": "https://de.wikipedia.org/wiki/Disneyland"
+        },
+        {
+          "title": "Erste documenta",
+          "text": "In Kassel beginnt die weltgrößte Ausstellung moderner Kunst.",
+          "source": "https://de.wikipedia.org/wiki/documenta"
+        }
+      ]
+    },
+    {
+      "year": 1956,
+      "type": "year",
+      "items": [
+        {
+          "title": "Erster Grand Prix Eurovision",
+          "text": "Der erste Eurovision Song Contest findet in Lugano statt.",
+          "source": "https://de.wikipedia.org/wiki/Eurovision_Song_Contest_1956"
+        },
+        {
+          "title": "„Sissi“",
+          "text": "Romy Schneider verzaubert als junge Kaiserin das Kinopublikum.",
+          "source": "https://de.wikipedia.org/wiki/Sissi_–_Die_junge_Kaiserin",
+          "noImage": true
+        },
+        {
+          "title": "Elvis",
+          "text": "„Heartbreak Hotel“ macht Elvis Presley zum Star.",
+          "source": "https://de.wikipedia.org/wiki/Heartbreak_Hotel",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1957,
+      "type": "year",
+      "items": [
+        {
+          "title": "Römische Verträge",
+          "text": "Sechs Länder gründen die Europäische Wirtschaftsgemeinschaft.",
+          "source": "https://de.wikipedia.org/wiki/Römische_Verträge"
+        },
+        {
+          "title": "Sputnik",
+          "text": "Der erste Satellit umkreist die Erde.",
+          "source": "https://de.wikipedia.org/wiki/Sputnik_1"
+        },
+        {
+          "title": "Das Saarland kehrt zurück",
+          "text": "Das Saarland wird Teil der Bundesrepublik.",
+          "source": "https://de.wikipedia.org/wiki/Saarland"
+        }
+      ]
+    },
+    {
+      "year": 1958,
+      "type": "year",
+      "items": [
+        {
+          "title": "Das Atomium",
+          "text": "Die Weltausstellung in Brüssel bekommt ihr glänzendes Wahrzeichen.",
+          "source": "https://de.wikipedia.org/wiki/Atomium"
+        },
+        {
+          "title": "Der Lego-Stein",
+          "text": "Der Klemmbaustein wird patentiert.",
+          "source": "https://de.wikipedia.org/wiki/Lego"
+        },
+        {
+          "title": "Pelé wird Weltmeister",
+          "text": "Mit 17 Jahren gewinnt er mit Brasilien die WM.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_1958"
+        }
+      ]
+    },
+    {
+      "year": 1959,
+      "type": "day",
+      "items": [
+        {
+          "title": "Erstes Deutsches Schlager-Festival",
+          "text": "In Wiesbaden findet das erste Deutsche Schlager-Festival statt.",
+          "source": "https://de.wikipedia.org/wiki/17._November"
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "type": "year",
+      "items": [
+        {
+          "title": "Armin Hary: 10,0 Sekunden",
+          "text": "Als erster Mensch läuft er die 100 Meter in 10,0 Sekunden – und holt Olympiagold.",
+          "source": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1960"
+        },
+        {
+          "title": "Der erste Laser",
+          "text": "Theodore Maiman bringt erstmals einen Laser zum Leuchten.",
+          "source": "https://de.wikipedia.org/wiki/Laser"
+        },
+        {
+          "title": "„Jim Knopf“",
+          "text": "Michael Endes Lokomotivführer erscheint als Buch.",
+          "source": "https://de.wikipedia.org/wiki/Jim_Knopf_und_Lukas_der_Lokomotivführer"
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "type": "year",
+      "items": [
+        {
+          "title": "Erster Mensch im All",
+          "text": "Juri Gagarin umrundet die Erde.",
+          "source": "https://de.wikipedia.org/wiki/Wostok_1",
+          "noImage": true
+        },
+        {
+          "title": "Amnesty International",
+          "text": "Die Menschenrechtsorganisation wird gegründet.",
+          "source": "https://de.wikipedia.org/wiki/Amnesty_International"
+        },
+        {
+          "title": "„Frühstück bei Tiffany“",
+          "text": "Audrey Hepburn singt „Moon River“.",
+          "source": "https://de.wikipedia.org/wiki/Frühstück_bei_Tiffany_(Film)",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "type": "year",
+      "items": [
+        {
+          "title": "Die Beatles",
+          "text": "„Love Me Do“ – die erste Single der Beatles erscheint.",
+          "source": "https://de.wikipedia.org/wiki/Love_Me_Do",
+          "noImage": true
+        },
+        {
+          "title": "Fernsehen per Satellit",
+          "text": "Telstar überträgt erstmals live Bilder über den Atlantik.",
+          "source": "https://de.wikipedia.org/wiki/Telstar_1"
+        },
+        {
+          "title": "James Bond",
+          "text": "„James Bond jagt Dr. No“ – der erste Bond-Film.",
+          "source": "https://de.wikipedia.org/wiki/James_Bond_jagt_Dr._No"
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "type": "day",
+      "items": [
+        {
+          "title": "Europabrücke eröffnet",
+          "text": "Bei Innsbruck wird die Europabrücke eröffnet – damals die höchste Brücke Europas.",
+          "source": "https://de.wikipedia.org/wiki/Europabrücke"
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "type": "year",
+      "items": [
+        {
+          "title": "Olympia in Tokio",
+          "text": "Zu den Spielen fährt der erste Shinkansen-Hochgeschwindigkeitszug.",
+          "source": "https://de.wikipedia.org/wiki/Shinkansen"
+        },
+        {
+          "title": "Friedensnobelpreis",
+          "text": "Martin Luther King wird für seinen gewaltfreien Kampf ausgezeichnet.",
+          "source": "https://de.wikipedia.org/wiki/Friedensnobelpreis",
+          "noImage": true
+        },
+        {
+          "title": "Beatlemania in Amerika",
+          "text": "Die Beatles erobern die USA.",
+          "source": "https://de.wikipedia.org/wiki/The_Beatles",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "type": "year",
+      "items": [
+        {
+          "title": "Erster Weltraumspaziergang",
+          "text": "Alexei Leonow schwebt als erster Mensch frei im All.",
+          "source": "https://de.wikipedia.org/wiki/Woschod_2"
+        },
+        {
+          "title": "Der Beat-Club",
+          "text": "Radio Bremen startet die legendäre Musiksendung.",
+          "source": "https://de.wikipedia.org/wiki/Beat-Club"
+        },
+        {
+          "title": "Deutschland und Israel",
+          "text": "Beide Länder nehmen diplomatische Beziehungen auf.",
+          "source": "https://de.wikipedia.org/wiki/Deutsch-israelische_Beziehungen"
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "type": "day",
+      "items": [
+        {
+          "title": "Sternschnuppen-Sturm",
+          "text": "In der Nacht regnet es Sternschnuppen: Die Leoniden erreichen bis zu Tausende pro Minute.",
+          "source": "https://de.wikipedia.org/wiki/Leoniden"
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "type": "year",
+      "items": [
+        {
+          "title": "Erste Herztransplantation",
+          "text": "Christiaan Barnard verpflanzt in Kapstadt erstmals ein Herz.",
+          "source": "https://de.wikipedia.org/wiki/Herztransplantation"
+        },
+        {
+          "title": "Farbfernsehen in Deutschland",
+          "text": "Auf Knopfdruck wird das Fernsehbild bunt.",
+          "source": "https://de.wikipedia.org/wiki/Farbfernsehen"
+        },
+        {
+          "title": "„Sgt. Pepper“",
+          "text": "Das Beatles-Album verändert die Popmusik.",
+          "source": "https://de.wikipedia.org/wiki/Sgt._Pepper’s_Lonely_Hearts_Club_Band"
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "type": "year",
+      "items": [
+        {
+          "title": "Apollo 8",
+          "text": "Zum ersten Mal umrunden Menschen den Mond – und sehen die Erde aufgehen.",
+          "source": "https://de.wikipedia.org/wiki/Apollo_8"
+        },
+        {
+          "title": "„2001: Odyssee im Weltraum“",
+          "text": "Stanley Kubricks Weltraumfilm kommt ins Kino.",
+          "source": "https://de.wikipedia.org/wiki/2001:_Odyssee_im_Weltraum"
+        },
+        {
+          "title": "Der Fosbury-Flop",
+          "text": "Dick Fosbury springt rückwärts über die Latte – und gewinnt Gold.",
+          "source": "https://de.wikipedia.org/wiki/Fosbury-Flop",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1969,
+      "type": "day",
+      "items": [
+        {
+          "title": "Gespräche über Abrüstung",
+          "text": "In Helsinki beginnen die USA und die Sowjetunion die SALT-Verhandlungen – ein erster Schritt, das atomare Wettrüsten zu bremsen.",
+          "source": "https://de.wikipedia.org/wiki/Strategic_Arms_Limitation_Talks"
+        }
+      ]
+    },
+    {
+      "year": 1970,
+      "type": "day",
+      "items": [
+        {
+          "title": "Ein Auto auf dem Mond",
+          "text": "Lunochod 1 rollt als erstes ferngesteuertes Fahrzeug über den Mond.",
+          "source": "https://de.wikipedia.org/wiki/Lunochod_1"
+        }
+      ]
+    },
+    {
+      "year": 1971,
+      "type": "year",
+      "items": [
+        {
+          "title": "Die Sendung mit der Maus",
+          "text": "Lach- und Sachgeschichten – die Maus startet im Fernsehen.",
+          "source": "https://de.wikipedia.org/wiki/Die_Sendung_mit_der_Maus"
+        },
+        {
+          "title": "Friedensnobelpreis für Willy Brandt",
+          "text": "Er wird für seine Politik der Versöhnung ausgezeichnet.",
+          "source": "https://de.wikipedia.org/wiki/Neue_Ostpolitik",
+          "noImage": true
+        },
+        {
+          "title": "Greenpeace",
+          "text": "Die Umweltorganisation wird gegründet.",
+          "source": "https://de.wikipedia.org/wiki/Greenpeace"
+        }
+      ]
+    },
+    {
+      "year": 1972,
+      "type": "year",
+      "items": [
+        {
+          "title": "Nobelpreis für Heinrich Böll",
+          "text": "Der Kölner Schriftsteller erhält den Literaturnobelpreis.",
+          "source": "https://de.wikipedia.org/wiki/Nobelpreis_für_Literatur",
+          "noImage": true
+        },
+        {
+          "title": "Grundlagenvertrag",
+          "text": "Bundesrepublik und DDR vereinbaren „gutnachbarliche Beziehungen“.",
+          "source": "https://de.wikipedia.org/wiki/Grundlagenvertrag"
+        },
+        {
+          "title": "„Pong“",
+          "text": "Das erste erfolgreiche Videospiel kommt in die Kneipen.",
+          "source": "https://de.wikipedia.org/wiki/Pong"
+        }
+      ]
+    },
+    {
+      "year": 1973,
+      "type": "day",
+      "items": [
+        {
+          "title": "Abkommen über den Eurotunnel",
+          "text": "Großbritannien und Frankreich unterzeichnen ein Abkommen über einen Tunnel unter dem Ärmelkanal.",
+          "source": "https://de.wikipedia.org/wiki/17._November"
+        }
+      ]
+    },
+    {
+      "year": 1974,
+      "type": "year",
+      "items": [
+        {
+          "title": "Fußball-Weltmeister",
+          "text": "Deutschland gewinnt die WM im eigenen Land.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_1974"
+        },
+        {
+          "title": "ABBA gewinnt mit „Waterloo“",
+          "text": "Die Schweden gewinnen den Grand Prix – der Start einer Weltkarriere.",
+          "source": "https://de.wikipedia.org/wiki/Eurovision_Song_Contest_1974",
+          "noImage": true
+        },
+        {
+          "title": "Der Zauberwürfel",
+          "text": "Ernő Rubik erfindet seinen bunten Würfel.",
+          "source": "https://de.wikipedia.org/wiki/Zauberwürfel"
+        }
+      ]
+    },
+    {
+      "year": 1975,
+      "type": "year",
+      "items": [
+        {
+          "title": "Handschlag im All",
+          "text": "Amerikanische und sowjetische Raumfahrer treffen sich im Orbit.",
+          "source": "https://de.wikipedia.org/wiki/Apollo-Sojus-Test-Projekt",
+          "noImage": true
+        },
+        {
+          "title": "Microsoft gegründet",
+          "text": "Zwei junge Programmierer gründen eine kleine Softwarefirma.",
+          "source": "https://de.wikipedia.org/wiki/Microsoft"
+        },
+        {
+          "title": "„Der weiße Hai“",
+          "text": "Der erste Sommer-Blockbuster läuft im Kino.",
+          "source": "https://de.wikipedia.org/wiki/Der_weiße_Hai"
+        }
+      ]
+    },
+    {
+      "year": 1976,
+      "type": "year",
+      "items": [
+        {
+          "title": "Die Concorde",
+          "text": "Das Überschallflugzeug fliegt erstmals Passagiere.",
+          "source": "https://de.wikipedia.org/wiki/Concorde"
+        },
+        {
+          "title": "Viking 1 auf dem Mars",
+          "text": "Erstmals schickt eine Sonde Bilder von der Marsoberfläche.",
+          "source": "https://de.wikipedia.org/wiki/Viking_1"
+        },
+        {
+          "title": "Apple gegründet",
+          "text": "In einer Garage beginnt eine Erfolgsgeschichte.",
+          "source": "https://de.wikipedia.org/wiki/Apple"
+        }
+      ]
+    },
+    {
+      "year": 1977,
+      "type": "year",
+      "items": [
+        {
+          "title": "„Krieg der Sterne“",
+          "text": "Ein Film aus einer weit, weit entfernten Galaxis begeistert die Welt.",
+          "source": "https://de.wikipedia.org/wiki/Krieg_der_Sterne"
+        },
+        {
+          "title": "Voyager-Sonden",
+          "text": "Die beiden Sonden starten – und fliegen bis heute.",
+          "source": "https://de.wikipedia.org/wiki/Voyager-Programm"
+        },
+        {
+          "title": "Letzter Pockenfall",
+          "text": "In Somalia erkrankt der letzte Mensch auf natürliche Weise an Pocken.",
+          "source": "https://de.wikipedia.org/wiki/Pocken"
+        }
+      ]
+    },
+    {
+      "year": 1978,
+      "type": "year",
+      "items": [
+        {
+          "title": "Sigmund Jähn im All",
+          "text": "Der erste Deutsche fliegt in den Weltraum.",
+          "source": "https://de.wikipedia.org/wiki/Sojus_31",
+          "noImage": true
+        },
+        {
+          "title": "Erstes Retortenbaby",
+          "text": "Louise Brown kommt in England zur Welt – ein Wunder der Medizin.",
+          "source": "https://de.wikipedia.org/wiki/In-vitro-Fertilisation"
+        },
+        {
+          "title": "Garfield",
+          "text": "Der lasagne-liebende Kater erscheint erstmals.",
+          "source": "https://de.wikipedia.org/wiki/Garfield"
+        }
+      ]
+    },
+    {
+      "year": 1979,
+      "type": "year",
+      "items": [
+        {
+          "title": "Der Walkman",
+          "text": "Musik zum Mitnehmen: Sony bringt den Walkman.",
+          "source": "https://de.wikipedia.org/wiki/Walkman"
+        },
+        {
+          "title": "Nobelpreis für Mutter Teresa",
+          "text": "Sie wird für ihre Arbeit mit den Ärmsten geehrt.",
+          "source": "https://de.wikipedia.org/wiki/Friedensnobelpreis",
+          "noImage": true
+        },
+        {
+          "title": "Voyager besucht Jupiter",
+          "text": "Die Sonden schicken spektakuläre Bilder des Riesenplaneten.",
+          "source": "https://de.wikipedia.org/wiki/Jupiter_(Planet)"
+        }
+      ]
+    },
+    {
+      "year": 1980,
+      "type": "day",
+      "items": [
+        {
+          "title": "„Double Fantasy“",
+          "text": "John Lennon und Yoko Ono veröffentlichen ihr gemeinsames Album.",
+          "source": "https://de.wikipedia.org/wiki/Double_Fantasy",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1981,
+      "type": "year",
+      "items": [
+        {
+          "title": "„Wetten, dass..?“",
+          "text": "Frank Elstner präsentiert die erste Sendung.",
+          "source": "https://de.wikipedia.org/wiki/Wetten,_dass..?"
+        },
+        {
+          "title": "Space Shuttle",
+          "text": "Die Raumfähre Columbia startet zu ihrem ersten Flug.",
+          "source": "https://de.wikipedia.org/wiki/STS-1"
+        },
+        {
+          "title": "Der IBM-PC",
+          "text": "Der Computer erobert Büros und Wohnzimmer.",
+          "source": "https://de.wikipedia.org/wiki/IBM_Personal_Computer"
+        }
+      ]
+    },
+    {
+      "year": 1982,
+      "type": "year",
+      "items": [
+        {
+          "title": "„Ein bißchen Frieden“",
+          "text": "Nicole gewinnt als erste Deutsche den Grand Prix.",
+          "source": "https://de.wikipedia.org/wiki/Eurovision_Song_Contest_1982",
+          "noImage": true
+        },
+        {
+          "title": "„E.T.“",
+          "text": "Der kleine Außerirdische will „nach Hause telefonieren“.",
+          "source": "https://de.wikipedia.org/wiki/E.T._–_Der_Außerirdische"
+        },
+        {
+          "title": "Die CD",
+          "text": "Die Compact Disc kommt in die Läden.",
+          "source": "https://de.wikipedia.org/wiki/Compact_Disc"
+        }
+      ]
+    },
+    {
+      "year": 1983,
+      "type": "year",
+      "items": [
+        {
+          "title": "„99 Luftballons“",
+          "text": "Nenas Lied wird ein weltweiter Hit.",
+          "source": "https://de.wikipedia.org/wiki/99_Luftballons",
+          "noImage": true
+        },
+        {
+          "title": "Das erste Handy",
+          "text": "Das Motorola DynaTAC wird zugelassen.",
+          "source": "https://de.wikipedia.org/wiki/Motorola_DynaTAC"
+        },
+        {
+          "title": "Das Internet",
+          "text": "Am 1. Januar stellt das Netz auf TCP/IP um – der Geburtstag des Internets.",
+          "source": "https://de.wikipedia.org/wiki/Internet"
+        }
+      ]
+    },
+    {
+      "year": 1984,
+      "type": "year",
+      "items": [
+        {
+          "title": "Band Aid",
+          "text": "„Do They Know It's Christmas?“ sammelt Spenden gegen Hunger.",
+          "source": "https://de.wikipedia.org/wiki/Band_Aid",
+          "noImage": true
+        },
+        {
+          "title": "Der Macintosh",
+          "text": "Apple bringt den Computer mit Maus.",
+          "source": "https://de.wikipedia.org/wiki/Macintosh_128k"
+        },
+        {
+          "title": "„Tetris“",
+          "text": "Das Puzzle-Spiel wird in Moskau erfunden.",
+          "source": "https://de.wikipedia.org/wiki/Tetris"
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "type": "year",
+      "items": [
+        {
+          "title": "Boris Becker gewinnt Wimbledon",
+          "text": "Mit 17 Jahren ist er der jüngste Sieger aller Zeiten.",
+          "source": "https://de.wikipedia.org/wiki/Wimbledon_Championships_1985",
+          "noImage": true
+        },
+        {
+          "title": "Live Aid",
+          "text": "Das große Benefizkonzert sammelt Spenden für Afrika.",
+          "source": "https://de.wikipedia.org/wiki/Live_Aid",
+          "noImage": true
+        },
+        {
+          "title": "„Super Mario Bros.“",
+          "text": "Der Klempner startet seine Karriere.",
+          "source": "https://de.wikipedia.org/wiki/Super_Mario_Bros."
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "type": "year",
+      "items": [
+        {
+          "title": "Raumstation Mir",
+          "text": "Der Kern der berühmten Raumstation startet.",
+          "source": "https://de.wikipedia.org/wiki/Mir_(Raumstation)"
+        },
+        {
+          "title": "Besuch beim Halleyschen Kometen",
+          "text": "Die Sonde Giotto fliegt dicht am Kometen vorbei.",
+          "source": "https://de.wikipedia.org/wiki/Giotto_(Raumsonde)"
+        },
+        {
+          "title": "Voyager 2 besucht Uranus",
+          "text": "Erstmals fliegt eine Sonde am Planeten Uranus vorbei.",
+          "source": "https://de.wikipedia.org/wiki/Voyager_2"
+        }
+      ]
+    },
+    {
+      "year": 1987,
+      "type": "year",
+      "items": [
+        {
+          "title": "Steffi Graf ist die Nummer 1",
+          "text": "Sie führt erstmals die Tennis-Weltrangliste an.",
+          "source": "https://de.wikipedia.org/wiki/Steffi_Graf",
+          "noImage": true
+        },
+        {
+          "title": "Abrüstung",
+          "text": "Der INF-Vertrag verbietet Mittelstreckenraketen.",
+          "source": "https://de.wikipedia.org/wiki/INF-Vertrag"
+        },
+        {
+          "title": "„Dirty Dancing“",
+          "text": "„Mein Baby gehört zu mir!“",
+          "source": "https://de.wikipedia.org/wiki/Dirty_Dancing",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1988,
+      "type": "year",
+      "items": [
+        {
+          "title": "Golden Slam für Steffi Graf",
+          "text": "Alle vier großen Turniere und Olympiagold in einem Jahr.",
+          "source": "https://de.wikipedia.org/wiki/Golden_Slam",
+          "noImage": true
+        },
+        {
+          "title": "„Rain Man“",
+          "text": "Dustin Hoffman und Tom Cruise begeistern im Kino.",
+          "source": "https://de.wikipedia.org/wiki/Rain_Man",
+          "noImage": true
+        },
+        {
+          "title": "Ozonschicht",
+          "text": "Die Welt beschließt, die Ozonschicht zu schützen (Montreal-Protokoll tritt bald in Kraft).",
+          "source": "https://de.wikipedia.org/wiki/Montreal-Protokoll"
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "type": "day",
+      "items": [
+        {
+          "title": "Die Samtene Revolution beginnt",
+          "text": "Studierende demonstrieren in Prag. Wenige Wochen später ist die Tschechoslowakei frei – ganz ohne Waffen.",
+          "source": "https://de.wikipedia.org/wiki/Samtene_Revolution"
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "type": "year",
+      "items": [
+        {
+          "title": "Deutsche Einheit",
+          "text": "Am 3. Oktober ist Deutschland wiedervereinigt.",
+          "source": "https://de.wikipedia.org/wiki/Deutsche_Wiedervereinigung"
+        },
+        {
+          "title": "Weltmeister in Italien",
+          "text": "Deutschland gewinnt zum dritten Mal die Fußball-WM.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_1990"
+        },
+        {
+          "title": "Nelson Mandela ist frei",
+          "text": "Nach 27 Jahren Haft verlässt er das Gefängnis.",
+          "source": "https://de.wikipedia.org/wiki/Nelson_Mandela",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "type": "year",
+      "items": [
+        {
+          "title": "Das World Wide Web",
+          "text": "Das WWW wird für alle geöffnet.",
+          "source": "https://de.wikipedia.org/wiki/World_Wide_Web"
+        },
+        {
+          "title": "Ötzi gefunden",
+          "text": "Wanderer entdecken in den Ötztaler Alpen eine 5.000 Jahre alte Gletschermumie.",
+          "source": "https://de.wikipedia.org/wiki/Ötzi"
+        },
+        {
+          "title": "Der ICE fährt",
+          "text": "Der erste deutsche Hochgeschwindigkeitszug nimmt den Betrieb auf.",
+          "source": "https://de.wikipedia.org/wiki/Intercity-Express"
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "type": "year",
+      "items": [
+        {
+          "title": "Vertrag von Maastricht",
+          "text": "Die Europäische Union wird gegründet.",
+          "source": "https://de.wikipedia.org/wiki/Vertrag_von_Maastricht"
+        },
+        {
+          "title": "Die erste SMS",
+          "text": "„Merry Christmas“ – die erste Kurznachricht wird verschickt.",
+          "source": "https://de.wikipedia.org/wiki/Short_Message_Service"
+        },
+        {
+          "title": "Olympia in Barcelona",
+          "text": "Erstmals tritt wieder ein gesamtdeutsches Team an.",
+          "source": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1992"
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "type": "day",
+      "items": [
+        {
+          "title": "Sieg gegen Brasilien",
+          "text": "Die deutsche Fußball-Nationalmannschaft schlägt Brasilien 2:1.",
+          "source": "https://de.wikipedia.org/wiki/17._November"
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "type": "year",
+      "items": [
+        {
+          "title": "Eurotunnel eröffnet",
+          "text": "Mit dem Zug von England nach Frankreich – unter dem Meer.",
+          "source": "https://de.wikipedia.org/wiki/Eurotunnel"
+        },
+        {
+          "title": "Mandela wird Präsident",
+          "text": "Südafrika wählt seinen ersten schwarzen Präsidenten.",
+          "source": "https://de.wikipedia.org/wiki/Südafrika"
+        },
+        {
+          "title": "„Der König der Löwen“",
+          "text": "Disneys Löwenkönig erobert die Herzen.",
+          "source": "https://de.wikipedia.org/wiki/Der_König_der_Löwen"
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "type": "day",
+      "items": [
+        {
+          "title": "Weltraumteleskop ISO startet",
+          "text": "Europas Infrarot-Teleskop blickt durch kosmischen Staub auf entstehende Sterne.",
+          "source": "https://de.wikipedia.org/wiki/Infrared_Space_Observatory"
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "type": "year",
+      "items": [
+        {
+          "title": "Europameister!",
+          "text": "Deutschland gewinnt die Fußball-EM in England.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Europameisterschaft_1996"
+        },
+        {
+          "title": "Klonschaf Dolly",
+          "text": "Das erste geklonte Säugetier kommt zur Welt.",
+          "source": "https://de.wikipedia.org/wiki/Dolly_(Schaf)"
+        },
+        {
+          "title": "Pokémon",
+          "text": "Die kleinen Taschenmonster erobern die Kinderzimmer.",
+          "source": "https://de.wikipedia.org/wiki/Pokémon"
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "type": "year",
+      "items": [
+        {
+          "title": "Jan Ullrich gewinnt die Tour",
+          "text": "Als erster Deutscher siegt er bei der Tour de France.",
+          "source": "https://de.wikipedia.org/wiki/Tour_de_France_1997",
+          "noImage": true
+        },
+        {
+          "title": "„Harry Potter“",
+          "text": "Der erste Band erscheint.",
+          "source": "https://de.wikipedia.org/wiki/Harry_Potter_und_der_Stein_der_Weisen"
+        },
+        {
+          "title": "Mars Pathfinder",
+          "text": "Ein kleiner Rover erkundet den Mars.",
+          "source": "https://de.wikipedia.org/wiki/Mars_Pathfinder"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "type": "year",
+      "items": [
+        {
+          "title": "Die Raumstation ISS",
+          "text": "Das erste Modul startet ins All.",
+          "source": "https://de.wikipedia.org/wiki/Internationale_Raumstation"
+        },
+        {
+          "title": "Google gegründet",
+          "text": "Zwei Studenten gründen eine Suchmaschine.",
+          "source": "https://de.wikipedia.org/wiki/Google_LLC"
+        },
+        {
+          "title": "Der Euro wird beschlossen",
+          "text": "Elf Länder legen die Einführung des Euro fest.",
+          "source": "https://de.wikipedia.org/wiki/Euro"
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "type": "day",
+      "items": [
+        {
+          "title": "Tag der Muttersprache",
+          "text": "Die UNESCO ruft den Internationalen Tag der Muttersprache aus.",
+          "source": "https://de.wikipedia.org/wiki/Internationaler_Tag_der_Muttersprache"
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "type": "day",
+      "items": [
+        {
+          "title": "Ein Geschenk für Hannover",
+          "text": "Niki de Saint Phalle, Schöpferin der bunten „Nanas“, wird Ehrenbürgerin und schenkt der Stadt rund 300 Kunstwerke.",
+          "source": "https://de.wikipedia.org/wiki/17._November"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "type": "year",
+      "items": [
+        {
+          "title": "Wikipedia",
+          "text": "Die freie Online-Enzyklopädie geht an den Start.",
+          "source": "https://de.wikipedia.org/wiki/Wikipedia"
+        },
+        {
+          "title": "Der iPod",
+          "text": "1.000 Lieder in der Hosentasche.",
+          "source": "https://de.wikipedia.org/wiki/iPod"
+        },
+        {
+          "title": "Euro-Starterkits",
+          "text": "Ab Dezember gibt es die ersten Euro-Münzen zum Ausprobieren.",
+          "source": "https://de.wikipedia.org/wiki/Euro-Bargeldeinführung"
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "type": "year",
+      "items": [
+        {
+          "title": "Euro-Bargeld",
+          "text": "Die neuen Scheine und Münzen sind da.",
+          "source": "https://de.wikipedia.org/wiki/Euro-Bargeldeinführung"
+        },
+        {
+          "title": "Eis auf dem Mars",
+          "text": "Die Sonde Mars Odyssey entdeckt Wassereis unter der Oberfläche.",
+          "source": "https://de.wikipedia.org/wiki/2001_Mars_Odyssey"
+        },
+        {
+          "title": "Vize-Weltmeister",
+          "text": "Deutschland erreicht das WM-Finale in Japan.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_2002"
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "type": "day",
+      "items": [
+        {
+          "title": "Ein Dürer kehrt heim",
+          "text": "Ein verschollenes Dürer-Gemälde von Johannes dem Täufer soll von Estland nach Deutschland zurückkehren.",
+          "source": "https://de.wikipedia.org/wiki/17._November"
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "type": "year",
+      "items": [
+        {
+          "title": "Rover auf dem Mars",
+          "text": "Spirit und Opportunity landen und fahren jahrelang über den Mars.",
+          "source": "https://de.wikipedia.org/wiki/Mars_Exploration_Rover"
+        },
+        {
+          "title": "Erster privater Raumflug",
+          "text": "SpaceShipOne fliegt ins All.",
+          "source": "https://de.wikipedia.org/wiki/SpaceShipOne"
+        },
+        {
+          "title": "Olympia in Athen",
+          "text": "Die Spiele kehren in ihr Ursprungsland zurück.",
+          "source": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_2004"
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "type": "year",
+      "items": [
+        {
+          "title": "Landung auf Titan",
+          "text": "Die Sonde Huygens landet auf dem Saturnmond.",
+          "source": "https://de.wikipedia.org/wiki/Huygens_(Sonde)"
+        },
+        {
+          "title": "Airbus A380",
+          "text": "Das größte Passagierflugzeug der Welt hebt ab.",
+          "source": "https://de.wikipedia.org/wiki/Airbus_A380"
+        },
+        {
+          "title": "YouTube",
+          "text": "Das erste Video wird hochgeladen.",
+          "source": "https://de.wikipedia.org/wiki/YouTube"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "type": "year",
+      "items": [
+        {
+          "title": "Das Sommermärchen",
+          "text": "Die WM in Deutschland wird ein großes Fest.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_2006"
+        },
+        {
+          "title": "„Das Leben der Anderen“",
+          "text": "Der deutsche Film wird bald mit dem Oscar ausgezeichnet.",
+          "source": "https://de.wikipedia.org/wiki/Das_Leben_der_Anderen",
+          "noImage": true
+        },
+        {
+          "title": "Friedensnobelpreis",
+          "text": "Muhammad Yunus wird für Kleinkredite an Arme geehrt.",
+          "source": "https://de.wikipedia.org/wiki/Grameen_Bank",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "type": "year",
+      "items": [
+        {
+          "title": "Handball-Weltmeister",
+          "text": "Deutschland gewinnt die WM im eigenen Land.",
+          "source": "https://de.wikipedia.org/wiki/Handball-Weltmeisterschaft_der_Männer_2007"
+        },
+        {
+          "title": "Oscar für Deutschland",
+          "text": "„Das Leben der Anderen“ gewinnt den Auslands-Oscar.",
+          "source": "https://de.wikipedia.org/wiki/Oscarverleihung_2007",
+          "noImage": true
+        },
+        {
+          "title": "Das iPhone",
+          "text": "Ein Telefon mit Touchscreen verändert alles.",
+          "source": "https://de.wikipedia.org/wiki/iPhone_(1._Generation)"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "type": "year",
+      "items": [
+        {
+          "title": "Teilchenbeschleuniger LHC",
+          "text": "Die größte Maschine der Welt startet am CERN.",
+          "source": "https://de.wikipedia.org/wiki/Large_Hadron_Collider"
+        },
+        {
+          "title": "Wasser auf dem Mars",
+          "text": "Die Sonde Phoenix weist Wassereis nach.",
+          "source": "https://de.wikipedia.org/wiki/Phoenix_(Raumsonde)"
+        },
+        {
+          "title": "Fußball-EM",
+          "text": "Deutschland wird Vize-Europameister.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Europameisterschaft_2008"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "type": "year",
+      "items": [
+        {
+          "title": "9,58 Sekunden in Berlin",
+          "text": "Usain Bolt läuft bei der WM in Berlin Weltrekord.",
+          "source": "https://de.wikipedia.org/wiki/Leichtathletik-Weltmeisterschaften_2009",
+          "noImage": true
+        },
+        {
+          "title": "Weltraumteleskop Kepler",
+          "text": "Kepler sucht nach Planeten bei fremden Sternen.",
+          "source": "https://de.wikipedia.org/wiki/Kepler_(Weltraumteleskop)"
+        },
+        {
+          "title": "„Avatar“",
+          "text": "Der 3D-Film wird zum erfolgreichsten Film seiner Zeit.",
+          "source": "https://de.wikipedia.org/wiki/Avatar_–_Aufbruch_nach_Pandora"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "type": "day",
+      "items": [
+        {
+          "title": "Antimaterie eingefangen",
+          "text": "Forschern am CERN gelingt es erstmals, Atome aus Antimaterie festzuhalten.",
+          "source": "https://de.wikipedia.org/wiki/Antiwasserstoff"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "type": "day",
+      "items": [
+        {
+          "title": "Erster Welt-Frühgeborenen-Tag",
+          "text": "Weltweit wird erstmals auf Frühchen und ihre Familien aufmerksam gemacht.",
+          "source": "https://de.wikipedia.org/wiki/17._November"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "type": "year",
+      "items": [
+        {
+          "title": "Curiosity landet auf dem Mars",
+          "text": "Der Rover von der Größe eines Autos setzt sicher auf.",
+          "source": "https://de.wikipedia.org/wiki/Mars_Science_Laboratory"
+        },
+        {
+          "title": "Sprung aus der Stratosphäre",
+          "text": "Felix Baumgartner springt aus 39 Kilometern Höhe.",
+          "source": "https://de.wikipedia.org/wiki/Red_Bull_Stratos",
+          "noImage": true
+        },
+        {
+          "title": "Higgs-Teilchen entdeckt",
+          "text": "Physiker finden das lange gesuchte Teilchen.",
+          "source": "https://de.wikipedia.org/wiki/Higgs-Boson"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "type": "day",
+      "items": [
+        {
+          "title": "Rekord für Sebastian Vettel",
+          "text": "Mit seinem Sieg in Austin gewinnt er das achte Formel-1-Rennen in Folge.",
+          "source": "https://de.wikipedia.org/wiki/Großer_Preis_der_Vereinigten_Staaten_2013"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "type": "year",
+      "items": [
+        {
+          "title": "Fußball-Weltmeister",
+          "text": "Deutschland gewinnt in Rio den vierten WM-Titel.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_2014"
+        },
+        {
+          "title": "Landung auf einem Kometen",
+          "text": "Das Mini-Labor Philae setzt am 12. November auf einem Kometen auf.",
+          "source": "https://de.wikipedia.org/wiki/Philae_(Sonde)"
+        },
+        {
+          "title": "Alexander Gerst im All",
+          "text": "Der deutsche Astronaut forscht ein halbes Jahr auf der ISS.",
+          "source": "https://de.wikipedia.org/wiki/Blue_Dot",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "type": "year",
+      "items": [
+        {
+          "title": "Besuch bei Pluto",
+          "text": "New Horizons schickt erstmals scharfe Bilder des Zwergplaneten.",
+          "source": "https://de.wikipedia.org/wiki/New_Horizons"
+        },
+        {
+          "title": "Pariser Klimaabkommen",
+          "text": "Fast alle Länder der Welt einigen sich auf Klimaschutz.",
+          "source": "https://de.wikipedia.org/wiki/Übereinkommen_von_Paris"
+        },
+        {
+          "title": "Rekordflug ohne Treibstoff",
+          "text": "Das Solarflugzeug Solar Impulse 2 fliegt fünf Tage über den Pazifik.",
+          "source": "https://de.wikipedia.org/wiki/Solar_Impulse"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "type": "day",
+      "items": [
+        {
+          "title": "Auf zur ISS",
+          "text": "Eine Sojus-Rakete bringt den ESA-Astronauten Thomas Pesquet und seine Crew zur Raumstation.",
+          "source": "https://de.wikipedia.org/wiki/Sojus_MS-03",
+          "noImage": true
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "type": "year",
+      "items": [
+        {
+          "title": "Die Elbphilharmonie",
+          "text": "Hamburgs Konzerthaus wird eröffnet.",
+          "source": "https://de.wikipedia.org/wiki/Elbphilharmonie"
+        },
+        {
+          "title": "Gold aus dem All",
+          "text": "Forscher beobachten die Verschmelzung zweier Neutronensterne.",
+          "source": "https://de.wikipedia.org/wiki/GW170817"
+        },
+        {
+          "title": "Nobelpreis für Gravitationswellen",
+          "text": "Die Entdeckung der „Wellen in der Raumzeit“ wird ausgezeichnet.",
+          "source": "https://de.wikipedia.org/wiki/Gravitationswelle"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "type": "year",
+      "items": [
+        {
+          "title": "Ein Deutscher als ISS-Kommandant",
+          "text": "Alexander Gerst übernimmt das Kommando der Raumstation.",
+          "source": "https://de.wikipedia.org/wiki/Horizons_(Mission)",
+          "noImage": true
+        },
+        {
+          "title": "Der Sonne entgegen",
+          "text": "Die Parker Solar Probe startet.",
+          "source": "https://de.wikipedia.org/wiki/Parker_Solar_Probe"
+        },
+        {
+          "title": "InSight landet auf dem Mars",
+          "text": "Die Sonde horcht ins Innere des Planeten.",
+          "source": "https://de.wikipedia.org/wiki/InSight"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "type": "year",
+      "items": [
+        {
+          "title": "Erstes Foto eines Schwarzen Lochs",
+          "text": "Ein weltweites Teleskop-Netz macht das Unsichtbare sichtbar.",
+          "source": "https://de.wikipedia.org/wiki/Event_Horizon_Telescope"
+        },
+        {
+          "title": "Kleinstes Ozonloch",
+          "text": "Das Ozonloch ist so klein wie seit Jahrzehnten nicht.",
+          "source": "https://de.wikipedia.org/wiki/Ozonloch"
+        },
+        {
+          "title": "Das fernste Objekt",
+          "text": "Die Sonde New Horizons fliegt an Arrokoth vorbei – so weit weg wie nie zuvor.",
+          "source": "https://de.wikipedia.org/wiki/(486958)_Arrokoth"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "type": "year",
+      "items": [
+        {
+          "title": "Impfstoff aus Mainz",
+          "text": "Der erste Corona-Impfstoff von BioNTech wird zugelassen.",
+          "source": "https://de.wikipedia.org/wiki/Tozinameran"
+        },
+        {
+          "title": "Crew Dragon",
+          "text": "Erstmals bringt eine private Raumkapsel Astronauten zur ISS.",
+          "source": "https://de.wikipedia.org/wiki/SpaceX_Demo-2"
+        },
+        {
+          "title": "Probe vom Asteroiden",
+          "text": "Die japanische Sonde Hayabusa 2 bringt Gestein zur Erde.",
+          "source": "https://de.wikipedia.org/wiki/Hayabusa_2"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "type": "year",
+      "items": [
+        {
+          "title": "Ein Hubschrauber auf dem Mars",
+          "text": "Ingenuity fliegt als erstes Fluggerät auf einem anderen Planeten.",
+          "source": "https://de.wikipedia.org/wiki/Ingenuity_(Hubschrauber)"
+        },
+        {
+          "title": "James-Webb-Teleskop",
+          "text": "Das größte Weltraumteleskop startet an Weihnachten.",
+          "source": "https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop"
+        },
+        {
+          "title": "Olympia in Tokio",
+          "text": "Die Spiele finden ein Jahr später statt.",
+          "source": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_2020"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "type": "year",
+      "items": [
+        {
+          "title": "Erste Webb-Bilder",
+          "text": "Das Teleskop zeigt das Universum so scharf wie nie.",
+          "source": "https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop"
+        },
+        {
+          "title": "Asteroid abgelenkt",
+          "text": "Die NASA-Sonde DART stupst einen Asteroiden aus der Bahn.",
+          "source": "https://de.wikipedia.org/wiki/Double_Asteroid_Redirection_Test"
+        },
+        {
+          "title": "Durchbruch bei der Kernfusion",
+          "text": "Erstmals liefert eine Fusionsreaktion mehr Energie, als hineingesteckt wurde.",
+          "source": "https://de.wikipedia.org/wiki/National_Ignition_Facility"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "type": "year",
+      "items": [
+        {
+          "title": "Basketball-Weltmeister",
+          "text": "Deutschland gewinnt sensationell die WM.",
+          "source": "https://de.wikipedia.org/wiki/Basketball-Weltmeisterschaft_2023"
+        },
+        {
+          "title": "Landung am Mond-Südpol",
+          "text": "Indien landet als erstes Land nahe dem Südpol des Mondes.",
+          "source": "https://de.wikipedia.org/wiki/Chandrayaan-3"
+        },
+        {
+          "title": "Ozonschicht erholt sich",
+          "text": "Die UN melden: Die Ozonschicht ist auf dem Weg der Heilung.",
+          "source": "https://de.wikipedia.org/wiki/Montreal-Protokoll"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "type": "year",
+      "items": [
+        {
+          "title": "Fußball-EM in Deutschland",
+          "text": "Ein Sommer voller Fußballfeste im ganzen Land.",
+          "source": "https://de.wikipedia.org/wiki/Fußball-Europameisterschaft_2024"
+        },
+        {
+          "title": "Olympia in Paris",
+          "text": "Die Spiele mit Eröffnung auf der Seine.",
+          "source": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_2024"
+        },
+        {
+          "title": "Auf zum Jupitermond",
+          "text": "Die Sonde Europa Clipper startet zum Eismond Europa.",
+          "source": "https://de.wikipedia.org/wiki/Europa_Clipper"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "type": "day",
+      "items": [
+        {
+          "title": "Satellit Sentinel-6B startet",
+          "text": "Der europäisch-amerikanische Satellit misst, wie sich der Meeresspiegel verändert.",
+          "source": "https://de.wikipedia.org/wiki/Sentinel-6"
+        }
+      ]
+    }
+  ]
+}
