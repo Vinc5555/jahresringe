@@ -18,9 +18,14 @@ import TopBar from './components/TopBar.vue'
 import YearCard from './components/YearCard.vue'
 import EndCard from './components/EndCard.vue'
 import YearPicker from './components/YearPicker.vue'
+import { preloadEntries } from './wikiImage.js'
 
 // Jahre aufsteigend sortieren (falls in der JSON durcheinander)
 const years = [...data.years].sort((a, b) => a.year - b.year)
+
+// Bilder der ersten Jahre schon laden, während der Startscreen zu sehen ist
+const PRELOAD_COUNT = 10
+preloadEntries(years.slice(0, PRELOAD_COUNT))
 const endYear = config.birthYear + 90 // Abschlusskarte = 90. Geburtstag
 
 const started = ref(false)      // Startscreen schon verlassen?

@@ -9,7 +9,7 @@
           "title": "Olympische Spiele in Berlin",
           "text": "Jesse Owens gewinnt vier Goldmedaillen und wird zum Star der Spiele.",
           "source": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1936",
-          "noImage": true
+          "image": "Olympic rings without rims.svg"
         },
         {
           "title": "Das Fernsehen geht auf Sendung",
@@ -147,7 +147,7 @@
           "title": "„Casablanca“",
           "text": "„Ich seh dir in die Augen, Kleines“ – der Filmklassiker feiert Premiere.",
           "source": "https://de.wikipedia.org/wiki/Casablanca_(Film)",
-          "noImage": true
+          "image": "Principal Cast in Casablanca Trailer crop.jpg"
         },
         {
           "title": "„Bambi“",
@@ -446,7 +446,8 @@
         {
           "title": "Erster Grand Prix Eurovision",
           "text": "Der erste Eurovision Song Contest findet in Lugano statt.",
-          "source": "https://de.wikipedia.org/wiki/Eurovision_Song_Contest_1956"
+          "source": "https://de.wikipedia.org/wiki/Eurovision_Song_Contest_1956",
+          "image": "ESC 1956 logo.svg"
         },
         {
           "title": "„Sissi“",
@@ -546,7 +547,7 @@
           "title": "Erster Mensch im All",
           "text": "Juri Gagarin umrundet die Erde.",
           "source": "https://de.wikipedia.org/wiki/Wostok_1",
-          "noImage": true
+          "image": "Yuri Gagarin (1961) - Restoration.jpg"
         },
         {
           "title": "Amnesty International",

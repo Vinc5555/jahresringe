@@ -7,7 +7,7 @@
 -->
 <script setup>
 import { computed, ref, watchEffect } from 'vue'
-import { commonsImage, wikiImage } from '../wikiImage.js'
+import { entryImage } from '../wikiImage.js'
 
 const props = defineProps({
   entry: Object,   // { year, type, items: [...] } aus events.json
@@ -23,11 +23,6 @@ const LABELS = {
 const label = computed(() => LABELS[props.entry.type] || LABELS.year)
 const single = computed(() => props.entry.items.length === 1)
 
-// Einträge, die ein Bild haben dürfen (keine Geburtstage, kein "noImage").
-// Quelle: Feld "image" oder Wikipedia-Artikel.
-const candidates = computed(() =>
-  props.entry.items.filter((i) => !i.birthday && !i.noImage && (i.image || i.source?.includes('de.wikipedia.org/wiki/'))),
-)
 const hero = ref(null)        // Eintrag, dessen Bild angezeigt wird
 const imageUrl = ref(null)
 const imageCredit = ref('')   // Urheber · Lizenz (automatisch von Wikimedia)
@@ -35,20 +30,13 @@ const imageFailed = ref(false) // Bild nicht ladbar → Ersatzgrafik
 // Logos/Grafiken (SVG) ganz zeigen statt bildschirmfüllend zuschneiden
 const isLogo = computed(() => /\.svg$/i.test(hero.value?.image || ''))
 
-// Einträge der Reihe nach probieren, bis einer ein Bild hat
+// Bild für diese Karte holen (Logik + Cache in wikiImage.js;
+// die ersten Jahre sind dort meist schon vom Startscreen vorgeladen)
 watchEffect(async () => {
-  const list = candidates.value
-  for (const item of list) {
-    const found = item.image ? await commonsImage(item.image) : await wikiImage(item.source)
-    if (found) {
-      hero.value = item
-      imageUrl.value = found.url
-      imageCredit.value = found.credit
-      return
-    }
-  }
-  hero.value = null
-  imageUrl.value = null
+  const found = await entryImage(props.entry)
+  hero.value = found?.item || null
+  imageUrl.value = found?.url || null
+  imageCredit.value = found?.credit || ''
 })
 </script>
 
@@ -123,6 +111,9 @@ watchEffect(async () => {
   -webkit-mask-image: linear-gradient(#000 55%, transparent 100%);
 }
 .photo.logo { object-fit: contain; padding: 22% 20% 18%; }
+/* Dunkelmodus: schwarze Logos (Wikipedia, ESC, Olympia-Ring) sonst unsichtbar →
+   Helligkeit umkehren, hue-rotate holt die ursprünglichen Farben zurück */
+:root[data-theme='dark'] .photo.logo { filter: invert(1) hue-rotate(180deg); }
 .fade { position: absolute; inset: auto 0 0 0; height: 45%; background: linear-gradient(transparent, var(--bg)); }
 
 .fallback {

@@ -28,6 +28,37 @@ export function commonsUrl(file) {
   return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${config.imageWidth}`
 }
 
+// ── Bild für eine ganze Jahreskarte ───────────────────────────
+// Einträge der Reihe nach probieren, bis einer ein Bild hat
+// (keine Geburtstage, kein "noImage"; Quelle: Feld "image" oder Wikipedia-Artikel).
+// → Promise<{ item, url, credit } | null>
+const entryCache = new Map() // Jahr → Promise
+export function entryImage(entry) {
+  if (!entryCache.has(entry.year)) entryCache.set(entry.year, findEntryImage(entry))
+  return entryCache.get(entry.year)
+}
+
+async function findEntryImage(entry) {
+  const candidates = entry.items.filter(
+    (i) => !i.birthday && !i.noImage && (i.image || i.source?.includes('de.wikipedia.org/wiki/')),
+  )
+  for (const item of candidates) {
+    const found = item.image ? await commonsImage(item.image) : await wikiImage(item.source)
+    if (found) return { item, ...found }
+  }
+  return null
+}
+
+// Erste Karten schon während des Startscreens vorbereiten:
+// Bild suchen UND die Bilddatei herunterladen, damit sie sofort da ist.
+export function preloadEntries(entries) {
+  for (const entry of entries) {
+    entryImage(entry).then((found) => {
+      if (found) new Image().src = found.url
+    })
+  }
+}
+
 // Fest eingetragenes Commons-Bild + Urheber/Lizenz → Promise<{ url, credit }>
 // Klappt die Abfrage nicht, wird das Bild trotzdem angezeigt (ohne Urheberzeile).
 export function commonsImage(file) {
