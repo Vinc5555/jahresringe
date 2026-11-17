@@ -88,12 +88,18 @@ watchEffect(async () => {
 
 /* ── Bild mit Blur-Auslauf ── */
 .media {
+  /* --lift: so weit wird das Bild nach oben unter die Kopfzeile gezogen */
+  --lift: 72px;
   position: relative;
-  height: 32dvh;
+  height: calc(32dvh + var(--lift));
+  margin-top: calc(-1 * var(--lift));
   overflow: hidden;
   flex-shrink: 0;
+  /* oben weich ausblenden (transparent → voll sichtbar) */
+  mask-image: linear-gradient(transparent, #000 40%);
+  -webkit-mask-image: linear-gradient(transparent, #000 40%);
 }
-.single .media { height: 46dvh; }
+.single .media { height: calc(46dvh + var(--lift)); }
 
 .media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .blur { filter: blur(28px) saturate(1.2); transform: scale(1.2); opacity: 0.6; }
