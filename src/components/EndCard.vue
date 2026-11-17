@@ -3,12 +3,27 @@
   Texte kommen aus config.js (endTitle, endText, endButton).
 -->
 <script setup>
+import { onMounted, onBeforeUnmount, ref } from 'vue'
 import { config } from '../config.js'
+import { burst } from '../confetti.js'
 defineEmits(['restart'])
+
+// Konfetti, sobald die Abschlusskarte zu mehr als der Hälfte sichtbar ist
+// (jedes Mal, wenn man dort ankommt)
+const card = ref(null)
+let observer
+onMounted(() => {
+  observer = new IntersectionObserver(
+    ([entry]) => { if (entry.isIntersecting) burst() },
+    { threshold: 0.6 },
+  )
+  observer.observe(card.value)
+})
+onBeforeUnmount(() => observer?.disconnect())
 </script>
 
 <template>
-  <section class="end">
+  <section ref="card" class="end">
     <p class="emoji" aria-hidden="true">🎉</p>
     <h2>{{ config.endTitle }}</h2>
     <p class="text">{{ config.endText }}</p>

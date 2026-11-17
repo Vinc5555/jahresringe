@@ -17,7 +17,7 @@ defineEmits(['toggle-theme', 'open-picker'])
 
 const age = computed(() => props.year - config.birthYear)
 const ageText = computed(() => {
-  if (age.value === 0) return 'Dein erster Tag'
+  if (age.value === 0) return 'Dein erstes Jahr'
   if (props.index >= props.total) return `Du wirst ${age.value}` // Abschlusskarte
   return `Du wurdest ${age.value}`
 })

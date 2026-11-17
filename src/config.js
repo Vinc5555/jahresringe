@@ -9,7 +9,7 @@ export const config = {
   appTitle: 'Jahresringe',
 
   // Name der beschenkten Person (für die Widmung)
-  name: '[Name]',
+  name: 'Oma Helga',
 
   // Geburtstag: Tag, Monat (1–12), Jahr
   birthDay: 17,
