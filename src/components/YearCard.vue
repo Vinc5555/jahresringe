@@ -132,8 +132,9 @@ watchEffect(async () => {
   place-items: center;
   font-size: 4.5rem;
   background:
-    radial-gradient(circle at 30% 30%, color-mix(in srgb, var(--accent) 35%, transparent), transparent 60%),
-    radial-gradient(circle at 75% 70%, color-mix(in srgb, var(--accent) 20%, transparent), transparent 55%);
+    /* Farben in theme.css (--glow-strong / --glow-soft) */
+    radial-gradient(circle at 30% 30%, var(--glow-strong), transparent 60%),
+    radial-gradient(circle at 75% 70%, var(--glow-soft), transparent 55%);
 }
 
 /* ── Text ── */

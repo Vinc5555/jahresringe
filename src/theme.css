@@ -10,6 +10,9 @@
   --text: #16181d;        /* Haupttext */
   --muted: #6b7280;       /* Nebentext (Quellen, Labels) */
   --accent: #e4572e;      /* Akzentfarbe (Fortschritt, Buttons) */
+  /* Schimmer hinter der Ersatzgrafik (🌍/⭐), wenn kein Bild da ist */
+  --glow-strong: color-mix(in srgb, #0b1a3a 55%, transparent);  /* dunkelblau */
+  --glow-soft: color-mix(in srgb, #05070d 30%, transparent);    /* fast schwarz */
   --surface: #ffffff;     /* Flächen wie Jahresliste */
   --line: rgba(0, 0, 0, 0.08);
 
@@ -23,6 +26,8 @@
   --text: #f2f3f5;
   --muted: #9ca3af;
   --accent: #ff7a59;
+  --glow-strong: color-mix(in srgb, #ff7a59 35%, transparent);  /* wie bisher */
+  --glow-soft: color-mix(in srgb, #ff7a59 20%, transparent);
   --surface: #1a1d23;
   --line: rgba(255, 255, 255, 0.1);
   color-scheme: dark;
