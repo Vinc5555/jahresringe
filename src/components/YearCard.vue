@@ -26,6 +26,7 @@ const single = computed(() => props.entry.items.length === 1)
 const hero = ref(null)        // Eintrag, dessen Bild angezeigt wird
 const imageUrl = ref(null)
 const imageCredit = ref('')   // Urheber · Lizenz (automatisch von Wikimedia)
+const imageOwn = ref(false)   // eigenes Bild aus public/bilder/?
 const imageFailed = ref(false) // Bild nicht ladbar → Ersatzgrafik
 // Logos/Grafiken (SVG) ganz zeigen statt bildschirmfüllend zuschneiden
 const isLogo = computed(() => /\.svg$/i.test(hero.value?.image || ''))
@@ -37,6 +38,18 @@ watchEffect(async () => {
   hero.value = found?.item || null
   imageUrl.value = found?.url || null
   imageCredit.value = found?.credit || ''
+  imageOwn.value = !!found?.own
+})
+
+// Bildnachweis unter dem Text:
+//   1 Eintrag:   "Bild: <credit>"
+//   mehrere:     "Bild: <Titel des abgebildeten Eintrags> · <credit>"
+// credit = Feld "credit" in events.json, sonst automatisch von Wikimedia,
+// sonst "Wikimedia Commons" (bzw. "Eigenes Bild" bei public/bilder/)
+const creditLine = computed(() => {
+  if (!hero.value) return ''
+  const credit = hero.value.credit || imageCredit.value || (imageOwn.value ? 'Eigenes Bild' : 'Wikimedia Commons')
+  return single.value ? `Bild: ${credit}` : `Bild: ${hero.value.title} · ${credit}`
 })
 </script>
 
@@ -70,7 +83,7 @@ watchEffect(async () => {
         </li>
       </ul>
 
-      <p v-if="imageUrl && !imageFailed" class="credit">Bild: {{ hero.credit || imageCredit || 'Wikimedia Commons (Details im verlinkten Artikel)' }}</p>
+      <p v-if="imageUrl && !imageFailed" class="credit">{{ creditLine }}</p>
     </div>
 
     <p v-if="first" class="swipe">↑ wischen</p>

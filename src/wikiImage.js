@@ -29,8 +29,12 @@ export function commonsUrl(file) {
 }
 
 // ── Bild für eine ganze Jahreskarte ───────────────────────────
-// Einträge der Reihe nach probieren, bis einer ein Bild hat
-// (keine Geburtstage, kein "noImage"; Quelle: Feld "image" oder Wikipedia-Artikel).
+// Reihenfolge, in der die Einträge probiert werden:
+//   1. der Eintrag aus "heroIndex" (Jahresebene, 0 = erster Eintrag)
+//   2. Einträge mit festem "image" – das hat immer Vorrang vor Wikipedia
+//   3. alle übrigen Einträge mit de.wikipedia-Link (automatisches Bild)
+// Geburtstage und "noImage" bekommen kein automatisches Bild;
+// ein fest eingetragenes "image" wird aber immer genommen.
 // → Promise<{ item, url, credit } | null>
 const entryCache = new Map() // Jahr → Promise
 export function entryImage(entry) {
@@ -38,16 +42,33 @@ export function entryImage(entry) {
   return entryCache.get(entry.year)
 }
 
+const autoAllowed = (i) => !i.birthday && !i.noImage && i.source?.includes('de.wikipedia.org/wiki/')
+
 async function findEntryImage(entry) {
-  const candidates = entry.items.filter(
-    (i) => !i.birthday && !i.noImage && (i.image || i.source?.includes('de.wikipedia.org/wiki/')),
-  )
-  for (const item of candidates) {
-    const found = item.image ? await commonsImage(item.image) : await wikiImage(item.source)
+  const items = entry.items
+  const hero = items[entry.heroIndex]
+  const ordered = [
+    ...(hero ? [hero] : []),
+    ...items.filter((i) => i !== hero && i.image),
+    ...items.filter((i) => i !== hero && !i.image),
+  ].filter((i) => i.image || autoAllowed(i))
+
+  for (const item of ordered) {
+    const found = item.image ? await fixedImage(item) : await wikiImage(item.source)
     if (found) return { item, ...found }
   }
   return null
 }
+
+// Fest eingetragenes Bild: eigenes ("bilder/…" aus public/bilder/) oder Commons-Dateiname
+function fixedImage(item) {
+  if (isOwnImage(item.image)) {
+    // BASE_URL sorgt dafür, dass es auch unter /jahresringe/ auf GitHub Pages klappt
+    return Promise.resolve({ url: import.meta.env.BASE_URL + item.image, credit: '', own: true })
+  }
+  return commonsImage(item.image)
+}
+export const isOwnImage = (image) => typeof image === 'string' && image.startsWith('bilder/')
 
 // Erste Karten schon während des Startscreens vorbereiten:
 // Bild suchen UND die Bilddatei herunterladen, damit sie sofort da ist.

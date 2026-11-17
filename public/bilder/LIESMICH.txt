@@ -1,0 +1,3 @@
+Eigene Bilder für die Jahreskarten hier ablegen (z. B. 1980.jpg).
+In src/data/events.json eintragen als: "image": "bilder/1980.jpg"
+Anleitung: README.md -> "Eigenes Bild einfügen"

@@ -720,6 +720,7 @@
     {
       "year": 1971,
       "type": "year",
+      "heroIndex": 1,
       "items": [
         {
           "title": "Die Sendung mit der Maus",
@@ -730,7 +731,9 @@
           "title": "Friedensnobelpreis für Willy Brandt",
           "text": "Er wird für seine Politik der Versöhnung ausgezeichnet.",
           "source": "https://de.wikipedia.org/wiki/Neue_Ostpolitik",
-          "noImage": true
+          "noImage": true,
+          "image": "Nobelpreisurkunde Willy Brandt 1971.jpg",
+          "credit": "GilPe · CC BY-SA 4.0 · Wikimedia Commons"
         },
         {
           "title": "Greenpeace",
@@ -779,7 +782,9 @@
         {
           "title": "Fußball-Weltmeister",
           "text": "Deutschland gewinnt die WM im eigenen Land.",
-          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_1974"
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_1974",
+          "image": "Olympiastadion at dusk.JPG",
+          "credit": "Martin Falbisoner · CC BY-SA 3.0 · Wikimedia Commons"
         },
         {
           "title": "ABBA gewinnt mit „Waterloo“",
@@ -910,13 +915,16 @@
           "title": "„Double Fantasy“",
           "text": "John Lennon und Yoko Ono veröffentlichen ihr gemeinsames Album.",
           "source": "https://de.wikipedia.org/wiki/Double_Fantasy",
-          "noImage": true
+          "noImage": true,
+          "image": "Das Vinyl dreht sich.jpg",
+          "credit": "Sulamith Sallmann · CC BY-SA 4.0 · Wikimedia Commons"
         }
       ]
     },
     {
       "year": 1981,
       "type": "year",
+      "heroIndex": 1,
       "items": [
         {
           "title": "„Wetten, dass..?“",
@@ -926,7 +934,9 @@
         {
           "title": "Space Shuttle",
           "text": "Die Raumfähre Columbia startet zu ihrem ersten Flug.",
-          "source": "https://de.wikipedia.org/wiki/STS-1"
+          "source": "https://de.wikipedia.org/wiki/STS-1",
+          "image": "Space Shuttle Columbia launching.jpg",
+          "credit": "NASA · gemeinfrei · Wikimedia Commons"
         },
         {
           "title": "Der IBM-PC",
@@ -1127,6 +1137,7 @@
     {
       "year": 1991,
       "type": "year",
+      "heroIndex": 2,
       "items": [
         {
           "title": "Das World Wide Web",
@@ -1141,7 +1152,9 @@
         {
           "title": "Der ICE fährt",
           "text": "Der erste deutsche Hochgeschwindigkeitszug nimmt den Betrieb auf.",
-          "source": "https://de.wikipedia.org/wiki/Intercity-Express"
+          "source": "https://de.wikipedia.org/wiki/Intercity-Express",
+          "image": "DB ICE 1 München Hauptbahnhof 2015 01.jpg",
+          "credit": "Julian Herzog · CC BY 4.0 · Wikimedia Commons"
         }
       ]
     },
@@ -1173,7 +1186,9 @@
         {
           "title": "Sieg gegen Brasilien",
           "text": "Die deutsche Fußball-Nationalmannschaft schlägt Brasilien 2:1.",
-          "source": "https://de.wikipedia.org/wiki/Deutsche_Fußballnationalmannschaft"
+          "source": "https://de.wikipedia.org/wiki/Deutsche_Fußballnationalmannschaft",
+          "image": "Adidas soccer ball on a grass pitch (Unsplash).jpg",
+          "credit": "Peter Glaser baraida · CC0 · Wikimedia Commons"
         }
       ]
     },
@@ -1205,13 +1220,16 @@
         {
           "title": "Weltraumteleskop ISO startet",
           "text": "Europas Infrarot-Teleskop blickt durch kosmischen Staub auf entstehende Sterne.",
-          "source": "https://de.wikipedia.org/wiki/Infrared_Space_Observatory"
+          "source": "https://de.wikipedia.org/wiki/Infrared_Space_Observatory",
+          "image": "bilder/1995-iso.webp",
+          "credit": "© ESA"
         }
       ]
     },
     {
       "year": 1996,
       "type": "year",
+      "heroIndex": 1,
       "items": [
         {
           "title": "Europameister!",
@@ -1221,7 +1239,9 @@
         {
           "title": "Klonschaf Dolly",
           "text": "Das erste geklonte Säugetier kommt zur Welt.",
-          "source": "https://de.wikipedia.org/wiki/Dolly_(Schaf)"
+          "source": "https://de.wikipedia.org/wiki/Dolly_(Schaf)",
+          "image": "Dolly the Sheep National Museum of Scotland.jpg",
+          "credit": "Sgerbic · CC BY-SA 4.0 · Wikimedia Commons"
         },
         {
           "title": "Pokémon",
@@ -1238,7 +1258,9 @@
           "title": "Jan Ullrich gewinnt die Tour",
           "text": "Als erster Deutscher siegt er bei der Tour de France.",
           "source": "https://de.wikipedia.org/wiki/Tour_de_France_1997",
-          "noImage": true
+          "noImage": true,
+          "image": "Maillot jaune à la mairie (Mulhouse).jpg",
+          "credit": "Gzen92 · CC BY-SA 4.0 · Wikimedia Commons"
         },
         {
           "title": "„Harry Potter“",
@@ -1320,11 +1342,14 @@
     {
       "year": 2002,
       "type": "year",
+      "heroIndex": 0,
       "items": [
         {
           "title": "Euro-Bargeld",
           "text": "Die neuen Scheine und Münzen sind da.",
-          "source": "https://de.wikipedia.org/wiki/Euro-Bargeldeinführung"
+          "source": "https://de.wikipedia.org/wiki/Euro-Bargeldeinführung",
+          "image": "Euro coins and banknotes.jpg",
+          "credit": "Avij · gemeinfrei · Wikimedia Commons"
         },
         {
           "title": "Eis auf dem Mars",
@@ -1546,7 +1571,9 @@
         {
           "title": "Rekord für Sebastian Vettel",
           "text": "Mit seinem Sieg in Austin gewinnt er das achte Formel-1-Rennen in Folge.",
-          "source": "https://de.wikipedia.org/wiki/Großer_Preis_der_Vereinigten_Staaten_2013"
+          "source": "https://de.wikipedia.org/wiki/Großer_Preis_der_Vereinigten_Staaten_2013",
+          "image": "2013 Red Bull RB9.jpg",
+          "credit": "Calreyn88 · CC BY-SA 4.0 · Wikimedia Commons"
         }
       ]
     },
@@ -1557,7 +1584,9 @@
         {
           "title": "Fußball-Weltmeister",
           "text": "Deutschland gewinnt in Rio den vierten WM-Titel.",
-          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_2014"
+          "source": "https://de.wikipedia.org/wiki/Fußball-Weltmeisterschaft_2014",
+          "image": "Maracanã 2014 e.jpg",
+          "credit": "Daniel Basil · CC BY 3.0 br · Wikimedia Commons"
         },
         {
           "title": "Landung auf einem Kometen",
@@ -1601,7 +1630,9 @@
           "title": "Auf zur ISS",
           "text": "Eine Sojus-Rakete bringt den ESA-Astronauten Thomas Pesquet und seine Crew zur Raumstation.",
           "source": "https://de.wikipedia.org/wiki/Sojus_MS-03",
-          "noImage": true
+          "noImage": true,
+          "image": "Expedition 50 Soyuz Launch (NHQ201611180002).jpg",
+          "credit": "Bill Ingalls · gemeinfrei · Wikimedia Commons"
         }
       ]
     },
@@ -1655,7 +1686,9 @@
         {
           "title": "Erstes Foto eines Schwarzen Lochs",
           "text": "Ein weltweites Teleskop-Netz macht das Unsichtbare sichtbar.",
-          "source": "https://de.wikipedia.org/wiki/Event_Horizon_Telescope"
+          "source": "https://de.wikipedia.org/wiki/Event_Horizon_Telescope",
+          "image": "Black hole - Messier 87 crop max res.jpg",
+          "credit": "Event Horizon Telescope · CC BY 4.0 · Wikimedia Commons"
         },
         {
           "title": "Kleinstes Ozonloch",
@@ -1672,6 +1705,7 @@
     {
       "year": 2020,
       "type": "year",
+      "heroIndex": 1,
       "items": [
         {
           "title": "Impfstoff aus Mainz",
@@ -1681,7 +1715,9 @@
         {
           "title": "Crew Dragon",
           "text": "Erstmals bringt eine private Raumkapsel Astronauten zur ISS.",
-          "source": "https://de.wikipedia.org/wiki/SpaceX_Demo-2"
+          "source": "https://de.wikipedia.org/wiki/SpaceX_Demo-2",
+          "image": "45 SW Supports Successful Crew Dragon Demo-2 Launch (6231345).jpeg",
+          "credit": "U.S. Space Force / Zoe Thacker · gemeinfrei · Wikimedia Commons"
         },
         {
           "title": "Probe vom Asteroiden",
@@ -1697,7 +1733,9 @@
         {
           "title": "Ein Hubschrauber auf dem Mars",
           "text": "Ingenuity fliegt als erstes Fluggerät auf einem anderen Planeten.",
-          "source": "https://de.wikipedia.org/wiki/Ingenuity_(Hubschrauber)"
+          "source": "https://de.wikipedia.org/wiki/Ingenuity_(Hubschrauber)",
+          "image": "Mars helicopter on sol 46.png",
+          "credit": "NASA · gemeinfrei · Wikimedia Commons"
         },
         {
           "title": "James-Webb-Teleskop",
@@ -1718,7 +1756,9 @@
         {
           "title": "Erste Webb-Bilder",
           "text": "Das Teleskop zeigt das Universum so scharf wie nie.",
-          "source": "https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop"
+          "source": "https://de.wikipedia.org/wiki/James-Webb-Weltraumteleskop",
+          "image": "Webb's First Deep Field.jpg",
+          "credit": "NASA, ESA, CSA, and STScI · gemeinfrei · Wikimedia Commons"
         },
         {
           "title": "Asteroid abgelenkt",
@@ -1739,7 +1779,9 @@
         {
           "title": "Basketball-Weltmeister",
           "text": "Deutschland gewinnt sensationell die WM.",
-          "source": "https://de.wikipedia.org/wiki/Basketball-Weltmeisterschaft_2023"
+          "source": "https://de.wikipedia.org/wiki/Basketball-Weltmeisterschaft_2023",
+          "image": "Mall of Asia Arena 2019.jpg",
+          "credit": "Salmonpepperrice · CC BY-SA 4.0 · Wikimedia Commons"
         },
         {
           "title": "Landung am Mond-Südpol",

@@ -29,6 +29,12 @@ export default defineConfig({
             handler: 'CacheFirst',
             options: { cacheName: 'bilder', expiration: { maxEntries: 300 } },
           },
+          {
+            // Eigene Bilder aus public/bilder/ ebenfalls offline speichern
+            urlPattern: ({ url }) => url.pathname.includes('/bilder/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'eigene-bilder', expiration: { maxEntries: 100 } },
+          },
         ],
       },
     }),

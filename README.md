@@ -34,7 +34,7 @@ public/favicon.svg      ← App-Icon
 
 - **Wischen:** `.timeline` in `App.vue` nutzt CSS `scroll-snap-type: y mandatory` – jede Karte rastet bildschirmfüllend ein.
 - **Welches Jahr ist sichtbar?** Ein `IntersectionObserver` (App.vue) meldet die Karte, die zu >55 % im Bild ist → Kopfzeile aktualisiert sich.
-- **Bilder:** Automatisch das Titelbild des verlinkten de.wikipedia-Artikels (`src/wikiImage.js`). Alternativ ein fester Dateiname von Wikimedia Commons im Feld `image`. Geburtstage und Einträge mit `"noImage": true` bekommen kein Bild (keine Personenfotos). Lädt ein Bild nicht, erscheint eine Ersatzgrafik.
+- **Bilder:** Reihenfolge pro Karte (`src/wikiImage.js`): 1. Eintrag aus `heroIndex`, 2. Einträge mit festem `image` (Commons-Datei oder eigenes Bild aus `public/bilder/`), 3. automatisch das Titelbild bzw. erste passende Foto des verlinkten de.wikipedia-Artikels. Geburtstage und Einträge mit `"noImage": true` bekommen kein automatisches Bild (keine Personenfotos). Lädt ein Bild nicht, erscheint eine Ersatzgrafik. Die ersten 10 Jahre werden schon auf dem Startscreen vorgeladen.
 - **Blur-Auslauf:** Das Bild liegt doppelt: einmal unscharf dahinter, einmal scharf mit Maske, die nach unten transparent wird.
 - **Hell/Dunkel:** `data-theme="dark"` am `<html>` schaltet die Farbvariablen in `theme.css` um. Die Wahl wird im Browser gespeichert.
 
@@ -47,6 +47,20 @@ public/favicon.svg      ← App-Icon
 
 - `type`: `day` (genau an diesem Tag, 1 Eintrag) · `year` (3–5 Meilensteine) · `birthday` (3–5 bekannte Personen)
 - `image`, `credit`, `source` sind optional
+- `image`: entweder ein Dateiname von Wikimedia Commons (`"Datei.jpg"`) **oder** ein eigenes Bild (`"bilder/1980.jpg"`, siehe unten). Hat immer Vorrang vor dem automatischen Wikipedia-Bild.
+- `heroIndex` (optional, auf Jahresebene): welcher Eintrag das Titelbild stellt – `0` = erster Eintrag, `1` = zweiter …
+- Bildnachweis unter der Karte: `Bild: <Titel des Eintrags> · <credit>` (bei nur einem Eintrag: `Bild: <credit>`)
+
+## Eigenes Bild einfügen
+
+1. Bild in den Ordner **`public/bilder/`** legen, z. B. `public/bilder/1980.jpg`
+   (am besten JPG, ca. 1000 px breit – kleine Dateien laden am Handy schneller)
+2. In `src/data/events.json` beim passenden Eintrag eintragen:
+   ```json
+   { "title": "…", "text": "…", "image": "bilder/1980.jpg", "credit": "Foto: Familie Müller" }
+   ```
+   Wichtig: ohne `public/` davor. Bei Karten mit mehreren Einträgen ggf. `"heroIndex": 1` auf Jahresebene setzen, damit genau dieser Eintrag das Bild stellt.
+3. Mit `npm run dev` prüfen, dann committen und pushen – nach 1–3 Minuten ist es online.
 
 ## Feinschliff – hier drehst du
 
