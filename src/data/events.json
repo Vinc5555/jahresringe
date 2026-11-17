@@ -81,7 +81,7 @@
           "title": "„Der Zauberer von Oz“",
           "text": "Dorothy und ihre Freunde begeistern das Kinopublikum.",
           "source": "https://de.wikipedia.org/wiki/Der_Zauberer_von_Oz_(1939)",
-          "noImage": true
+          "image": "Judy Garland Over the Rainbow 2.jpg"
         },
         {
           "title": "„Vom Winde verweht“",
@@ -511,7 +511,9 @@
         {
           "title": "Erstes Deutsches Schlager-Festival",
           "text": "In Wiesbaden findet das erste Deutsche Schlager-Festival statt.",
-          "source": "https://de.wikipedia.org/wiki/17._November"
+          "source": "https://de.wikipedia.org/wiki/Deutsches_Schlager-Festival_1959",
+          "image": "Wiesbaden Rhein Main-Hallen.jpg",
+          "credit": "Rhein-Main-Hallen Wiesbaden (Foto 2004) · Magnus Manske · CC BY-SA 3.0 · Wikimedia Commons"
         }
       ]
     },
@@ -588,7 +590,8 @@
         {
           "title": "Europabrücke eröffnet",
           "text": "Bei Innsbruck wird die Europabrücke eröffnet – damals die höchste Brücke Europas.",
-          "source": "https://de.wikipedia.org/wiki/Europabrücke"
+          "source": "https://de.wikipedia.org/wiki/Europabrücke",
+          "image": "Europabrücke (Brenner Autobahn).JPG"
         }
       ]
     },
@@ -643,7 +646,8 @@
         {
           "title": "Sternschnuppen-Sturm",
           "text": "In der Nacht regnet es Sternschnuppen: Die Leoniden erreichen bis zu Tausende pro Minute.",
-          "source": "https://de.wikipedia.org/wiki/Leoniden"
+          "source": "https://de.wikipedia.org/wiki/Leoniden",
+          "image": "Leonids 1966 in New Mexico State University Observatory.jpg"
         }
       ]
     },
@@ -763,7 +767,7 @@
         {
           "title": "Abkommen über den Eurotunnel",
           "text": "Großbritannien und Frankreich unterzeichnen ein Abkommen über einen Tunnel unter dem Ärmelkanal.",
-          "source": "https://de.wikipedia.org/wiki/17._November"
+          "source": "https://de.wikipedia.org/wiki/Eurotunnel"
         }
       ]
     },
@@ -1168,7 +1172,7 @@
         {
           "title": "Sieg gegen Brasilien",
           "text": "Die deutsche Fußball-Nationalmannschaft schlägt Brasilien 2:1.",
-          "source": "https://de.wikipedia.org/wiki/17._November"
+          "source": "https://de.wikipedia.org/wiki/Deutsche_Fußballnationalmannschaft"
         }
       ]
     },
@@ -1286,7 +1290,7 @@
         {
           "title": "Ein Geschenk für Hannover",
           "text": "Niki de Saint Phalle, Schöpferin der bunten „Nanas“, wird Ehrenbürgerin und schenkt der Stadt rund 300 Kunstwerke.",
-          "source": "https://de.wikipedia.org/wiki/17._November"
+          "source": "https://de.wikipedia.org/wiki/Niki_de_Saint_Phalle"
         }
       ]
     },
@@ -1297,7 +1301,8 @@
         {
           "title": "Wikipedia",
           "text": "Die freie Online-Enzyklopädie geht an den Start.",
-          "source": "https://de.wikipedia.org/wiki/Wikipedia"
+          "source": "https://de.wikipedia.org/wiki/Wikipedia",
+          "image": "Wikipedia-logo-v2-de.svg"
         },
         {
           "title": "Der iPod",
@@ -1337,9 +1342,10 @@
       "type": "day",
       "items": [
         {
-          "title": "Ein Dürer kehrt heim",
-          "text": "Ein verschollenes Dürer-Gemälde von Johannes dem Täufer soll von Estland nach Deutschland zurückkehren.",
-          "source": "https://de.wikipedia.org/wiki/17._November"
+          "title": "Vom Terminator zum Gouverneur",
+          "text": "Arnold Schwarzenegger wird als Gouverneur von Kalifornien vereidigt.",
+          "source": "https://de.wikipedia.org/wiki/Arnold_Schwarzenegger",
+          "image": "A. Schwarzenegger.jpg"
         }
       ]
     },
@@ -1415,7 +1421,8 @@
         {
           "title": "Handball-Weltmeister",
           "text": "Deutschland gewinnt die WM im eigenen Land.",
-          "source": "https://de.wikipedia.org/wiki/Handball-Weltmeisterschaft_der_Männer_2007"
+          "source": "https://de.wikipedia.org/wiki/Handball-Weltmeisterschaft_der_Männer_2007",
+          "image": "DHB Handball Weltmeister Team von 2007 (47875960581).jpg"
         },
         {
           "title": "Oscar für Deutschland",
@@ -1437,7 +1444,8 @@
         {
           "title": "Teilchenbeschleuniger LHC",
           "text": "Die größte Maschine der Welt startet am CERN.",
-          "source": "https://de.wikipedia.org/wiki/Large_Hadron_Collider"
+          "source": "https://de.wikipedia.org/wiki/Large_Hadron_Collider",
+          "image": "Views of the LHC tunnel sector 3-4, tirage 2.jpg"
         },
         {
           "title": "Wasser auf dem Mars",
@@ -1480,18 +1488,31 @@
         {
           "title": "Antimaterie eingefangen",
           "text": "Forschern am CERN gelingt es erstmals, Atome aus Antimaterie festzuhalten.",
-          "source": "https://de.wikipedia.org/wiki/Antiwasserstoff"
+          "source": "https://de.wikipedia.org/wiki/Antiwasserstoff",
+          "image": "ALPHA-Experiment.jpg"
         }
       ]
     },
     {
       "year": 2011,
-      "type": "day",
+      "type": "year",
       "items": [
         {
-          "title": "Erster Welt-Frühgeborenen-Tag",
-          "text": "Weltweit wird erstmals auf Frühchen und ihre Familien aufmerksam gemacht.",
-          "source": "https://de.wikipedia.org/wiki/17._November"
+          "title": "Atomkatastrophe von Fukushima",
+          "text": "Nach Erdbeben und Tsunami kommt es in Japan zu Kernschmelzen.",
+          "source": "https://de.wikipedia.org/wiki/Nuklearkatastrophe_von_Fukushima",
+          "noImage": true
+        },
+        {
+          "title": "Hochzeit des Jahres",
+          "text": "Prinz William und Catherine Middleton heiraten in London.",
+          "source": "https://de.wikipedia.org/wiki/Hochzeit_von_Prinz_William_und_Catherine_Middleton",
+          "image": "William Catherine balcony wave.jpg"
+        },
+        {
+          "title": "Deutschland steigt aus",
+          "text": "Der Bundestag beschließt den Atomausstieg bis 2022.",
+          "source": "https://de.wikipedia.org/wiki/Atomausstieg"
         }
       ]
     },

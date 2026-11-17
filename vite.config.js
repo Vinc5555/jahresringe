@@ -25,7 +25,7 @@ export default defineConfig({
         // Wikipedia-Abfragen und Bilder nach dem ersten Laden im Handy speichern (spart Daten)
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/((commons|upload)\.wikimedia\.org|de\.wikipedia\.org\/api)\//,
+            urlPattern: /^https:\/\/((commons|upload)\.wikimedia\.org\/|de\.wikipedia\.org\/(api\/|w\/api\.php))/,
             handler: 'CacheFirst',
             options: { cacheName: 'bilder', expiration: { maxEntries: 300 } },
           },
