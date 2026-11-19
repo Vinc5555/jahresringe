@@ -9,7 +9,8 @@
           "title": "Olympische Spiele in Berlin",
           "text": "Jesse Owens gewinnt vier Goldmedaillen und wird zum Star der Spiele.",
           "source": "https://de.wikipedia.org/wiki/Olympische_Sommerspiele_1936",
-          "image": "Olympic rings without rims.svg"
+          "image": "Olympic rings without rims.svg",
+          "keepColors": true
         },
         {
           "title": "Das Fernsehen geht auf Sendung",

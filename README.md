@@ -48,6 +48,7 @@ public/favicon.svg      ← App-Icon
 - `type`: `day` (genau an diesem Tag, 1 Eintrag) · `year` (3–5 Meilensteine) · `birthday` (3–5 bekannte Personen)
 - `image`, `credit`, `source` sind optional
 - `image`: entweder ein Dateiname von Wikimedia Commons (`"Datei.jpg"`) **oder** ein eigenes Bild (`"bilder/1980.jpg"`, siehe unten). Hat immer Vorrang vor dem automatischen Wikipedia-Bild.
+- `keepColors: true` (optional): Logos/Grafiken (`.svg`) werden im Dunkelmodus sonst invertiert, damit Schwarz sichtbar bleibt. Bei bunten Logos (z. B. Olympische Ringe) behält dieses Feld die echten Farben und legt stattdessen einen hellen Schein darum.
 - `heroIndex` (optional, auf Jahresebene): welcher Eintrag das Titelbild stellt – `0` = erster Eintrag, `1` = zweiter …
 - Bildnachweis unter der Karte: `Bild: <Titel des Eintrags> · <credit>` (bei nur einem Eintrag: `Bild: <credit>`)
 

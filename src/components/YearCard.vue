@@ -30,6 +30,8 @@ const imageOwn = ref(false)   // eigenes Bild aus public/bilder/?
 const imageFailed = ref(false) // Bild nicht ladbar → Ersatzgrafik
 // Logos/Grafiken (SVG) ganz zeigen statt bildschirmfüllend zuschneiden
 const isLogo = computed(() => /\.svg$/i.test(hero.value?.image || ''))
+// "keepColors": true in events.json → bunte Logos im Dunkelmodus NICHT invertieren
+const keepColors = computed(() => !!hero.value?.keepColors)
 
 // Bild für diese Karte holen (Logik + Cache in wikiImage.js;
 // die ersten Jahre sind dort meist schon vom Startscreen vorgeladen)
@@ -59,7 +61,7 @@ const creditLine = computed(() => {
     <div class="media">
       <template v-if="imageUrl && !imageFailed">
         <img class="blur" :src="imageUrl" alt="" aria-hidden="true" loading="lazy" />
-        <img class="photo" :class="{ logo: isLogo }" :src="imageUrl" :alt="hero.title" loading="lazy" @error="imageFailed = true" />
+        <img class="photo" :class="{ logo: isLogo, keep: keepColors }" :src="imageUrl" :alt="hero.title" loading="lazy" @error="imageFailed = true" />
       </template>
       <div v-else class="fallback" aria-hidden="true">{{ label.icon }}</div>
       <div class="fade" />
@@ -127,6 +129,11 @@ const creditLine = computed(() => {
 /* Dunkelmodus: schwarze Logos (Wikipedia, ESC, Olympia-Ring) sonst unsichtbar →
    Helligkeit umkehren, hue-rotate holt die ursprünglichen Farben zurück */
 :root[data-theme='dark'] .photo.logo { filter: invert(1) hue-rotate(180deg); }
+/* Bunte Logos ("keepColors", z. B. Olympische Ringe): echte Farben behalten,
+   heller Schein als Kontur, damit Schwarz auf dunklem Grund sichtbar bleibt */
+:root[data-theme='dark'] .photo.logo.keep {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.85)) drop-shadow(0 0 5px rgba(255, 255, 255, 0.18));
+}
 .fade { position: absolute; inset: auto 0 0 0; height: 45%; background: linear-gradient(transparent, var(--bg)); }
 
 .fallback {
